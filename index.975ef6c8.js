@@ -28724,8 +28724,8 @@ var _resumeJpg = require("../images/projects/resume.jpg");
 var _resumeJpgDefault = parcelHelpers.interopDefault(_resumeJpg);
 var _automationPng = require("../images/projects/automation.png");
 var _automationPngDefault = parcelHelpers.interopDefault(_automationPng);
-var _dallEMusicJpg = require("../images/projects/DALL\xb7E_music.jpg");
-var _dallEMusicJpgDefault = parcelHelpers.interopDefault(_dallEMusicJpg);
+var _musicJpg = require("../images/projects/music.jpg");
+var _musicJpgDefault = parcelHelpers.interopDefault(_musicJpg);
 /**
  * Project list
  *
@@ -28754,7 +28754,7 @@ var _dallEMusicJpgDefault = parcelHelpers.interopDefault(_dallEMusicJpg);
         title: "Doja Cat Lyrics Dataset",
         description: "Immerse yourself in the emotional journey of Doja Cat's music with this sentiment analysis dataset.",
         url: "https://www.kaggle.com/datasets/ashish51ngh/doja-cat-lyrics",
-        image: (0, _dallEMusicJpgDefault.default)
+        image: (0, _musicJpgDefault.default)
     },
     {
         title: "GUI Automation Showcase",
@@ -28878,7 +28878,7 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Portfolio.css":"a3pyr","../images/projects/ted.png":"anuuf","../images/projects/valorant.jpg":"dCgaW","../images/projects/resume.jpg":"einl1","../images/projects/automation.png":"apM8P","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/projects/DALL·E_music.jpg":"1YfHN"}],"a3pyr":[function() {},{}],"anuuf":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Portfolio.css":"a3pyr","../images/projects/ted.png":"anuuf","../images/projects/valorant.jpg":"dCgaW","../images/projects/resume.jpg":"einl1","../images/projects/automation.png":"apM8P","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/projects/music.jpg":"29ZI6"}],"a3pyr":[function() {},{}],"anuuf":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "ted.09da28c7.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"dCgaW":[function(require,module,exports) {
@@ -28890,8 +28890,8 @@ module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "resume
 },{"./helpers/bundle-url":"lgJ39"}],"apM8P":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "automation.743c5f85.png" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"1YfHN":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "DALL\xb7E_music.21d30f7e.jpg" + "?" + Date.now();
+},{"./helpers/bundle-url":"lgJ39"}],"29ZI6":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "music.4ab5354d.jpg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lW6qc":[function() {},{}],"hqLjq":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$2eaf = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
