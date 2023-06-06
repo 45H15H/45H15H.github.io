@@ -29,7 +29,7 @@ import image_ted from "../images/projects/ted.png";
 import image_valorant from "../images/projects/valorant.jpg";
 import image_resume from "../images/projects/resume.jpg";
 import image_automation from "../images/projects/automation.png";
-import image_lyrics from "../images/projects/DALL·E_music.jpg"
+import image_lyrics from "../images/projects/DALL·E_music.jpg";
 
 /**
  * Project list
