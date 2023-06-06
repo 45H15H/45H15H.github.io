@@ -29,6 +29,7 @@ import image_ted from "../images/projects/ted.png";
 import image_valorant from "../images/projects/valorant.jpg";
 import image_resume from "../images/projects/resume.jpg";
 import image_automation from "../images/projects/automation.png";
+import image_lyrics from "../images/projects/DALL·E_music.jpg"
 
 /**
  * Project list
@@ -62,7 +63,7 @@ const projectList = [
     description:
       "Immerse yourself in the emotional journey of Doja Cat's music with this sentiment analysis dataset.",
     url: "https://www.kaggle.com/datasets/ashish51ngh/doja-cat-lyrics",
-    image: image_ted,
+    image: image_lyrics,
   },
   {
     title: "GUI Automation Showcase",
