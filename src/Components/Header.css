@@ -1,0 +1,30 @@
+.nav-bar {
+    position: fixed;
+    display: flex;
+    justify-content:center;
+    text-align: justify;
+    gap: 2rem;
+    background: rgba(255,255,255,0.75);
+    padding: 1rem;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+/* responsive styles */
+@media screen and (max-width: 600px) {
+  .nav-bar {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 100vw;
+    width: 100%;
+    gap: 1rem;
+    padding: 1rem 0.5rem;
+    text-align: center;
+  }
+  .nav-bar a {
+    /* margin-top: 0.5rem; */
+    font-size: 1rem;
+  }
+}

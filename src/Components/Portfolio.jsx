@@ -9,6 +9,7 @@
  */
 
 import React from "react";
+import "./Portfolio.css";
 
 /**
  * Desk image
@@ -19,9 +20,15 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
 
-const imageAltText = "desktop with books and laptop";
+// side image is not required
+// import image from "../images/design-desk.jpeg";
+// const imageAltText = "desktop with books and laptop";
+
+import image_ted from "../images/projects/ted.png";
+import image_valorant from "../images/projects/valorant.jpg";
+import image_resume from "../images/projects/resume.jpg";
+import image_automation from "../images/projects/automation.png";
 
 /**
  * Project list
@@ -31,28 +38,37 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Scraping TED Talks' transcript",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Scraping the transcript of TED Talks from www.ted.com/talks and visualizing it using WordCloud.",
+    url: "https://github.com/45H15H/Scraping-TED",
+    image: image_ted,
   },
   {
-    title: "Web Development for Beginners",
+    title: "Valorant Sprays as Stickers",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "A unique WhatsApp sticker app that brings the vibrant world of Valorant to your conversations!",
+    url: "https://github.com/45H15H/WhatsApp_Sticker_App",
+    image: image_valorant,
   },
   {
     title: "My Resume Site",
-    description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+    description: "Includes my experience, professional background, skills, and accomplishments.",
+    url: "https://ashish-nit-goa.github.io/online-resume/",
+    image: image_resume,
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Doja Cat Lyrics Dataset",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Immerse yourself in the emotional journey of Doja Cat's music with this sentiment analysis dataset.",
+    url: "https://www.kaggle.com/datasets/ashish51ngh/doja-cat-lyrics",
+    image: image_ted,
+  },
+  {
+    title: "GUI Automation Showcase",
+    description: "A collection of practical GUI automation projects.",
+    url: "https://github.com/45H15H/GUI-Automation/",
+    image: image_automation,
   },
 ];
 
@@ -61,20 +77,32 @@ const Portfolio = () => {
     <section className="padding" id="portfolio">
       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
-        <div style={{ maxWidth: "40%", alignSelf: "center" }}>
+        {/* <div style={{ maxWidth: "40%", alignSelf: "center" }}> 
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{
+              height: "90%",
+              width: "100%",
+              objectFit: "cover",
+              animation: "1s ease 0s 1 slideInFromLeft"
+            }}
             alt={imageAltText}
           />
-        </div>
+        </div> */}
         <div className="container">
           {projectList.map((project) => (
             <div className="box" key={project.title}>
-              <a href={project.url} target="_blank" rel="noopener noreferrer">
-                <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
-              </a>
-              <p className="small">{project.description}</p>
+              <div className="card">
+                <img src={project.image} alt={project.title} />
+                <div className="card-content">
+                  <h3 style={{ fontWeight: "bold", fontSize: "16px", fontFamily: "Arial" }}>
+                    <a href={project.url} target="_blank" rel="noopener noreferrer">
+                      {project.title}
+                    </a>
+                  </h3>
+                  <p style={{ fontSize: "16px", fontFamily: "Arial" }}>{project.description}</p>
+                </div>
+              </div>
             </div>
           ))}
         </div>
@@ -82,5 +110,4 @@ const Portfolio = () => {
     </section>
   );
 };
-
 export default Portfolio;
