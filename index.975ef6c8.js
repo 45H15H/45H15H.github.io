@@ -28878,7 +28878,7 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Portfolio.css":"a3pyr","../images/projects/ted.png":"anuuf","../images/projects/valorant.jpg":"dCgaW","../images/projects/resume.jpg":"einl1","../images/projects/automation.png":"apM8P","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/projects/music.jpg":"29ZI6"}],"a3pyr":[function() {},{}],"anuuf":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Portfolio.css":"a3pyr","../images/projects/ted.png":"anuuf","../images/projects/valorant.jpg":"dCgaW","../images/projects/resume.jpg":"einl1","../images/projects/automation.png":"apM8P","../images/projects/music.jpg":"29ZI6","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"a3pyr":[function() {},{}],"anuuf":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "ted.09da28c7.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"dCgaW":[function(require,module,exports) {
