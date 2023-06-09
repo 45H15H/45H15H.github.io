@@ -55,7 +55,7 @@ const projectList = [
   {
     title: "My Resume Site",
     description: "Includes my experience, professional background, skills, and accomplishments.",
-    url: "https://ashish-nit-goa.github.io/online-resume/",
+    url: "https://45h15h.github.io/resume/",
     image: image_resume,
   },
   {
