@@ -10,10 +10,13 @@
 
 .arrow-down {
     position: absolute;
-    bottom: 3rem;
+    /* bottom: 3rem; */
     /* justify-content: center; */
-    left: 48%;
+    /* left: 48%; */
     /* transform: translateX(-50%); */
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -50%);
 }
 
 /* responsive styles */
