@@ -11,6 +11,7 @@ import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
 import Portfolio from "./Components/Portfolio";
+import Services from "./Components/Services";
 
 import "./styles.css";
 import GetInTouch from "./Components/GetInTouch";
@@ -45,6 +46,7 @@ const App = () => {
       <Header />
       <Home name={siteProps.name} title={siteProps.title} />
       <About />
+      <Services />
       <Portfolio />
       <GetInTouch />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
