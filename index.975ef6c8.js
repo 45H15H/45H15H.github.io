@@ -27232,7 +27232,7 @@ const About = ()=>{
                 className: "about-container",
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                        children: "About Myself"
+                        children: "About Me"
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
                         lineNumber: 57,

@@ -67,9 +67,8 @@ h2 {
   color: #000;
   letter-spacing: 1rem;
   text-transform: uppercase;
-  width: max-content;
   margin: 5px;
-  padding-top: 2rem;
+  padding-top: 1rem;
   font-family: suisse-int, sans-serif;
   font-size: 1rem;
   font-weight: 400;
@@ -254,7 +253,13 @@ img.socialIcon {
   padding-bottom: 0;
 }
 
-#services, #get-in-touch {
+#services {
+  background-color: #e3e3e5;
+  padding-top: 0%;
+  padding-bottom: 0;
+}
+
+#get-in-touch {
   background-color: #e3e3e5;
 }
 
@@ -375,21 +380,15 @@ img.socialIcon {
 }
 
 .name-title {
-  width: 40rem;
-  text-align: center;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.name-title h2 {
-  width: 40rem;
+.name-title h1, .name-title h2 {
   text-align: center;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  justify-content: center;
 }
 
 .arrow-down {
@@ -416,17 +415,16 @@ img.socialIcon {
 
   .name-title h1 {
     letter-spacing: .5rem;
+    width: auto;
     margin-bottom: -1rem;
     font-size: 25px;
-    top: 50%;
-    left: 50%;
-    transform: translate(70%, 50%);
   }
 
   .name-title h2 {
     text-align: center;
     letter-spacing: .5rem;
-    margin-top: 1.5rem;
+    width: max-content;
+    margin-top: 1rem;
     font-size: 10px;
   }
 
@@ -438,7 +436,8 @@ img.socialIcon {
   .arrow-down {
     position: absolute;
     bottom: 4rem;
-    left: 45.9%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 
@@ -478,6 +477,10 @@ img.socialIcon {
   display: block;
 }
 
+.service-box:hover {
+  background-color: #f78e8e;
+}
+
 .service-box {
   width: 215px;
   height: 215px;
@@ -486,7 +489,7 @@ img.socialIcon {
   padding: 30px;
   transition: transform .3s ease-in-out;
   display: flex;
-  box-shadow: 0 0 10px #0000001a;
+  box-shadow: 0 10px 20px #0019321a;
 }
 
 .service-content {
@@ -499,16 +502,14 @@ img.socialIcon {
   margin-bottom: 10px;
   padding: 0;
   font-size: 1.5rem;
+  font-weight: 500;
 }
 
 .service-content p {
   vertical-align: baseline;
-  font-size: 100%;
+  font-size: 90%;
+  font-weight: 500;
   line-height: 1.5;
-}
-
-.service-card:hover .service-box {
-  transform: translateY(-10px);
 }
 
 .service-box img {
@@ -535,6 +536,10 @@ img {
     align-items: center;
     margin-top: 0;
     display: flex;
+  }
+
+  .service-box {
+    margin-bottom: -20px;
   }
 }
 
