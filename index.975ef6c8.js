@@ -27166,7 +27166,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Components/About":"kouZu","./Components/Footer":"7GWgX","./Components/Header":"9Dt2F","./Components/Home":"jIEVO","./Components/Portfolio":"lCaEt","./styles.css":"lW6qc","./Components/GetInTouch":"hqLjq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./Components/Services":"iwRVc"}],"kouZu":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Components/About":"kouZu","./Components/Footer":"7GWgX","./Components/Header":"9Dt2F","./Components/Home":"jIEVO","./Components/Portfolio":"lCaEt","./Components/Services":"iwRVc","./styles.css":"lW6qc","./Components/GetInTouch":"hqLjq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"kouZu":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$17a8 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -27692,7 +27692,8 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                 className: "small",
                 style: {
                     marginTop: 0,
-                    color: "white"
+                    color: "black",
+                    fontSize: 16
                 },
                 children: [
                     "Created by ",
@@ -28686,7 +28687,7 @@ $RefreshReg$(_c, "Home");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","./Home.css":"cnisp","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/blood-ffffff-bg.webp":"i9zEg"}],"b5nCi":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","./Home.css":"cnisp","../images/blood-ffffff-bg.webp":"i9zEg","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"b5nCi":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "down-arrow.1037091f.svg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"cnisp":[function() {},{}],"i9zEg":[function(require,module,exports) {
@@ -28900,6 +28901,161 @@ module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "automa
 
 },{"./helpers/bundle-url":"lgJ39"}],"29ZI6":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "music.4ab5354d.jpg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"iwRVc":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$dd7d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$dd7d.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _servicesCss = require("./Services.css");
+var _vscodePng = require("../images/services/vscode.png");
+var _vscodePngDefault = parcelHelpers.interopDefault(_vscodePng);
+const serviceList = [
+    {
+        title: "Visual Studio Code",
+        description: "Experience Coding & live-coding share with VSCode",
+        image: (0, _vscodePngDefault.default)
+    },
+    {
+        title: "Visual Studio Code",
+        description: "Experience Coding & live-coding share with VSCode",
+        image: (0, _vscodePngDefault.default)
+    },
+    {
+        title: "Visual Studio Code",
+        description: "Experience Coding & live-coding share with VSCode",
+        image: (0, _vscodePngDefault.default)
+    },
+    {
+        title: "Visual Studio Code",
+        description: "Experience Coding & live-coding share with VSCode",
+        image: (0, _vscodePngDefault.default)
+    },
+    {
+        title: "Visual Studio Code",
+        description: "Experience Coding & live-coding share with VSCode",
+        image: (0, _vscodePngDefault.default)
+    },
+    {
+        title: "Visual Studio Code",
+        description: "Experience Coding & live-coding share with VSCode",
+        image: (0, _vscodePngDefault.default)
+    }, 
+];
+const Services = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+        className: "padding",
+        id: "services",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                style: {
+                    textAlign: "center"
+                },
+                children: "Services"
+            }, void 0, false, {
+                fileName: "src/Components/Services.jsx",
+                lineNumber: 42,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                style: {
+                    display: "flex",
+                    flexDirection: "row",
+                    paddingTop: "3rem"
+                },
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "service-container",
+                    children: serviceList.map((service)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "row-service-wrap",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "service-card",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "service-box",
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                            className: "service-img",
+                                            src: service.image,
+                                            alt: "vscode"
+                                        }, void 0, false, {
+                                            fileName: "src/Components/Services.jsx",
+                                            lineNumber: 49,
+                                            columnNumber: 19
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "service-content",
+                                            children: [
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                                    children: service.title
+                                                }, void 0, false, {
+                                                    fileName: "src/Components/Services.jsx",
+                                                    lineNumber: 51,
+                                                    columnNumber: 21
+                                                }, undefined),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                    children: service.description
+                                                }, void 0, false, {
+                                                    fileName: "src/Components/Services.jsx",
+                                                    lineNumber: 52,
+                                                    columnNumber: 21
+                                                }, undefined)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/Components/Services.jsx",
+                                            lineNumber: 50,
+                                            columnNumber: 19
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/Components/Services.jsx",
+                                    lineNumber: 48,
+                                    columnNumber: 17
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/Components/Services.jsx",
+                                lineNumber: 47,
+                                columnNumber: 15
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/Components/Services.jsx",
+                            lineNumber: 46,
+                            columnNumber: 13
+                        }, undefined))
+                }, void 0, false, {
+                    fileName: "src/Components/Services.jsx",
+                    lineNumber: 44,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/Components/Services.jsx",
+                lineNumber: 43,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/Components/Services.jsx",
+        lineNumber: 41,
+        columnNumber: 5
+    }, undefined);
+};
+_c = Services;
+exports.default = Services;
+var _c;
+$RefreshReg$(_c, "Services");
+
+  $parcel$ReactRefreshHelpers$dd7d.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Services.css":"81s8Q","../images/services/vscode.png":"lYgUR","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"81s8Q":[function() {},{}],"lYgUR":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "vscode.fe23b05a.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lW6qc":[function() {},{}],"hqLjq":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$2eaf = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
@@ -29153,161 +29309,6 @@ $RefreshReg$(_c, "GetInTouch");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./GetInTouch.css":"hzz0J","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hzz0J":[function() {},{}],"iwRVc":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$dd7d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$dd7d.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _servicesCss = require("./Services.css");
-var _vscodePng = require("../images/services/vscode.png");
-var _vscodePngDefault = parcelHelpers.interopDefault(_vscodePng);
-const serviceList = [
-    {
-        title: "Visual Studio Code",
-        description: "Experience Coding & live-coding share with VSCode",
-        image: (0, _vscodePngDefault.default)
-    },
-    {
-        title: "Visual Studio Code",
-        description: "Experience Coding & live-coding share with VSCode",
-        image: (0, _vscodePngDefault.default)
-    },
-    {
-        title: "Visual Studio Code",
-        description: "Experience Coding & live-coding share with VSCode",
-        image: (0, _vscodePngDefault.default)
-    },
-    {
-        title: "Visual Studio Code",
-        description: "Experience Coding & live-coding share with VSCode",
-        image: (0, _vscodePngDefault.default)
-    },
-    {
-        title: "Visual Studio Code",
-        description: "Experience Coding & live-coding share with VSCode",
-        image: (0, _vscodePngDefault.default)
-    },
-    {
-        title: "Visual Studio Code",
-        description: "Experience Coding & live-coding share with VSCode",
-        image: (0, _vscodePngDefault.default)
-    }, 
-];
-const Services = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
-        className: "padding",
-        id: "services",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                style: {
-                    textAlign: "center"
-                },
-                children: "Services"
-            }, void 0, false, {
-                fileName: "src/Components/Services.jsx",
-                lineNumber: 43,
-                columnNumber: 13
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                style: {
-                    display: "flex",
-                    flexDirection: "row",
-                    paddingTop: "3rem"
-                },
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "service-container",
-                    children: serviceList.map((service)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "row-service-wrap",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "service-card",
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "service-box",
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                            className: "service-img",
-                                            src: service.image,
-                                            alt: "vscode"
-                                        }, void 0, false, {
-                                            fileName: "src/Components/Services.jsx",
-                                            lineNumber: 50,
-                                            columnNumber: 33
-                                        }, undefined),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "service-content",
-                                            children: [
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                                    children: service.title
-                                                }, void 0, false, {
-                                                    fileName: "src/Components/Services.jsx",
-                                                    lineNumber: 52,
-                                                    columnNumber: 37
-                                                }, undefined),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                    children: service.description
-                                                }, void 0, false, {
-                                                    fileName: "src/Components/Services.jsx",
-                                                    lineNumber: 53,
-                                                    columnNumber: 37
-                                                }, undefined)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "src/Components/Services.jsx",
-                                            lineNumber: 51,
-                                            columnNumber: 33
-                                        }, undefined)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/Components/Services.jsx",
-                                    lineNumber: 49,
-                                    columnNumber: 29
-                                }, undefined)
-                            }, void 0, false, {
-                                fileName: "src/Components/Services.jsx",
-                                lineNumber: 48,
-                                columnNumber: 25
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "src/Components/Services.jsx",
-                            lineNumber: 47,
-                            columnNumber: 21
-                        }, undefined))
-                }, void 0, false, {
-                    fileName: "src/Components/Services.jsx",
-                    lineNumber: 45,
-                    columnNumber: 17
-                }, undefined)
-            }, void 0, false, {
-                fileName: "src/Components/Services.jsx",
-                lineNumber: 44,
-                columnNumber: 13
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "src/Components/Services.jsx",
-        lineNumber: 42,
-        columnNumber: 9
-    }, undefined);
-};
-_c = Services;
-exports.default = Services;
-var _c;
-$RefreshReg$(_c, "Services");
-
-  $parcel$ReactRefreshHelpers$dd7d.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Services.css":"81s8Q","../images/services/vscode.png":"lYgUR","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"81s8Q":[function() {},{}],"lYgUR":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "vscode.fe23b05a.png" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire6158")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./GetInTouch.css":"hzz0J","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hzz0J":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire6158")
 
 //# sourceMappingURL=index.975ef6c8.js.map
