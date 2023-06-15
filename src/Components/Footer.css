@@ -5,7 +5,8 @@
     justify-content: center;
     gap: 2.5rem;
     padding: 5rem 0 3rem;
-    background-color: #4E567E;
+    /* background-color: #4E567E; */
+    background-color: rgb(171, 7, 7);
     width: 100vw;
 }
 

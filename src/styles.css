@@ -206,7 +206,7 @@ img.socialIcon {
   position: relative;
   overflow: hidden;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   transition: transform 0.5s ease;
   height: 150px;
 }
@@ -235,10 +235,12 @@ img.socialIcon {
   width: 100%;
   height: 100%;
   padding: 1rem;
-  background-color: rgba(89,136,255, 0.80);
+  /* background-color: rgba(89,136,255, 0.80); */
+  background-color: rgba(171,7,7, 0.80);
   color: white;
+  /* color: black; */
   opacity: 0;
-  transition: opacity 0.5s ease;
+  transition: opacity 0.7s ease;
   box-sizing: border-box; /* Add this line */
   font-size: 1rem; /* Add this line */
   line-height: 1.5; /* Add this line */
@@ -278,6 +280,18 @@ img.socialIcon {
 
 #portfolio {
   padding-bottom: 0px;
+  background-color: #e3e3e5;
+}
+
+#services {
+  /* padding-bottom: 0px; */
+  background-color: #e3e3e5;
+}
+
+#get-in-touch {
+  /* padding-bottom: 0px; */
+  background-color: #e3e3e5;
+  /* the form background is also changing. i don't want that */
 }
 
 /* add responsivness */
