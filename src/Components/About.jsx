@@ -54,7 +54,7 @@ const About = () => {
     <section className="padding" id="about">
       <img className="about-background" src={image} alt={imageAltText} />
       <div className="about-container">
-        <h2>About Myself</h2>
+        <h2>About Me</h2>
         <p className="large">{description}</p>
         <hr />
         <ul>

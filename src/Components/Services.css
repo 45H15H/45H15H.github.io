@@ -23,6 +23,10 @@
     margin-bottom: 0px;
     display: block;
   }
+
+  .service-box:hover {
+    background-color: #f78e8e;
+  }
   
   .service-box {
     width: 215px;
@@ -31,7 +35,7 @@
     flex-direction: column;
     padding: 30px;
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 10px 20px 0px rgba(0, 25, 50, 0.1);
     transition: transform 0.3s ease-in-out;
   }
   
@@ -47,20 +51,17 @@
     vertical-align: baseline;
     border: 0;
     padding: 0;
+    font-weight: 500;
   }
   
   .service-content p {
     /* font-size: 1.2rem; */
-    font-size: 100%;
+    font-size: 90%;
     line-height: 1.5;
     vertical-align: baseline;
-
+    font-weight: 500;
   }
   
-  .service-card:hover .service-box {
-    transform: translateY(-10px);
-  }
-
   .service-box img {
     margin-bottom: 10px;
   }
