@@ -303,7 +303,8 @@ img.socialIcon {
 }
 
 #services {
-  /* padding-bottom: 0px; */
+  padding-bottom: 0px;
+  padding-top: 0%;
   background-color: #e3e3e5;
 }
 
