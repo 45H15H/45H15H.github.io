@@ -17,25 +17,29 @@
     border-radius: 3px;
     font-size: 16px;
     font-family: Arial, sans-serif;
-    border-color: #bfd1ff;
+    /* border-color: #bfd1ff; */
+    border-color: rgb(171, 7, 7);
     box-sizing: border-box;
   }
 
   .form-input:focus, .form-textarea:focus {
-    border-color: #bfd1ff;
-    outline: #5988ff;
-    box-shadow: 0 0 5px #bfd1ff;
+    border-color: rgb(214, 104, 104);
+    /* outline: #5988ff; */
+    outline: rgb(171, 7, 7);
+    box-shadow: 0 0 5px rgb(214, 104, 104);
   }
   
   .form-submit {
-    background-color: #5988ff;
-    color: white;
+    /* background-color: #5988ff; */
+    background-color: rgb(171, 7, 7);
+    /* color: white; */
+    color: black;
     /* padding: auto; */
     padding: 10px 20px;
     border: none;
     border-radius: 24px;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 17px;
     font-family: "apple-system", "BlinkMacSystemFont", Arial, sans-serif;
     width: 100%;
     text-align: center;
