@@ -73,18 +73,37 @@ section.padding {
 }
 
 h1 {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 7rem;
+  /* font-family: "Cormorant Garamond", serif; */
+  font-family: "suisse-int", sans-serif; /* DOJA CAT style */
+  font-size: 3rem;
   font-weight: 400;
   line-height: 0.8;
   margin: 0;
+  /* DOJA CAT style */
+  letter-spacing: 1.6rem;
+  text-transform: uppercase;
+  width: max-content;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 2.4rem;
   font-weight: 400;
   margin: 0;
   padding-top: 1rem;
+  color: rgb(171, 7, 7);
+}
+
+.name-title h2 {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 5;
+  padding-top: 2rem;
+  color: black;
+  /* DOJA CAT style */
+  font-family: "suisse-int", sans-serif; 
+  letter-spacing: 1rem;
+  text-transform: uppercase;
+  width: max-content;
 }
 
 h3 {
@@ -157,7 +176,7 @@ a:hover {
 }
 
 .box:hover {
-  box-shadow: 0 0 10px rgba(9, 98, 231, 0.5);
+  box-shadow: 0 0 10px rgba(171, 7, 7, 0.6);
   transform: scale(1.005);
 }
 
