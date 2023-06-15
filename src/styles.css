@@ -14,6 +14,7 @@ body {
   overflow-x: hidden;
   padding: 0;
   width: 100%;
+  cursor: url("./images/cursor/a.png"), auto;
 }
 
 div#main {
