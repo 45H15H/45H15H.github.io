@@ -97,13 +97,13 @@ h2 {
   font-size: 1rem;
   font-weight: 400;
   margin: 5;
-  padding-top: 2rem;
+  padding-top: 1rem;
   color: black;
   /* DOJA CAT style */
   font-family: "suisse-int", sans-serif; 
   letter-spacing: 1rem;
   text-transform: uppercase;
-  width: max-content;
+  /* width: max-content; */
 }
 
 h3 {

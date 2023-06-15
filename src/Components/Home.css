@@ -4,21 +4,27 @@
     position: absolute;
     /* top: 15rem; */
     /* left: 2rem; */
-    width: 40rem;
-    text-align: center;
+    /* width: 1vh; */
+    /* text-align: center; */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.name-title h2 {
+/* .name-title h2 {
     position: relative;
     width: 40rem;
     text-align: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+} */
+.name-title h1,
+.name-title h2 {
+  text-align: center;
+  justify-content: center;
 }
+
 
 .arrow-down {
     position: absolute;
@@ -58,16 +64,15 @@
         font-size: 25px;
         letter-spacing: 0.5rem;
         margin-bottom: -1rem;
-        top: 50%;
-        left: 50%;
-        transform: translate(70%, 50%);
+        width: auto;
     }
 
     .name-title h2 {
         font-size: 10px;
-        margin-top: 1.5rem;
+        margin-top: 1rem;
         text-align: center;
         letter-spacing: 0.5rem;
+        width: max-content;
     }
 
     .bounce {
@@ -79,7 +84,8 @@
         position: absolute;
         bottom: 4rem; /* fix button down position */
         /* left: 50%; */
-        left: 45.9%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         /* transform: translateX(-50%); */
         /* top: -5rem; remove the top property */
     }
