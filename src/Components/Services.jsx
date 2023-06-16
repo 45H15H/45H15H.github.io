@@ -9,7 +9,7 @@ import postgresql from "../images/services/PostgreSQL.png";
 import pandas from "../images/services/pandas_mark.png";
 import numpy from "../images/services/numpylogoicon.png";
 import scikit from "../images/services/scikit-learn-logo.png";
-import selenium from "../images/services/Selenium_logo.png";
+import selenium from "../images/services/Selenium_Logo.png";
 
 const serviceList = [
   {
