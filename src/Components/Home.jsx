@@ -28,6 +28,10 @@ import landscapeImage from "../images/blood-ffffff-bg.webp";
 
 const imageAltText = "Adult female in office setting leaning against a glass wall while holding a platinum Microsoft Surface Pro 7 in tablet mode preparing to write with Microsoft Surface Pen";
 
+const downloadCV = () => {
+  window.open("https://drive.google.com/file/d/11KVzos_nLJkvxOcMmSoHjmtKkwevENq4/view?usp=sharing", "_blank");
+};
+
 const Home = ({ name, title }) => {
   return (
     <section id="home" className="min-height">
@@ -38,6 +42,9 @@ const Home = ({ name, title }) => {
       </div>
       <div className="arrow-down">
         <img src={arrowSvg} alt={imageAltText} className="bounce"/>
+      </div>
+      <div className="download-cv">
+        <button className="cv-button" onClick={downloadCV}>RESUME</button>
       </div>
     </section>
   );
