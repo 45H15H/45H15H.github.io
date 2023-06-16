@@ -28609,6 +28609,9 @@ var _bloodFfffffBgWebp = require("../images/blood-ffffff-bg.webp");
 var _bloodFfffffBgWebpDefault = parcelHelpers.interopDefault(_bloodFfffffBgWebp);
 // import portraitImage from "../images/portrait-girl-with-laptop.jpg";
 const imageAltText = "Adult female in office setting leaning against a glass wall while holding a platinum Microsoft Surface Pro 7 in tablet mode preparing to write with Microsoft Surface Pen";
+const downloadCV = ()=>{
+    window.open("https://drive.google.com/file/d/11KVzos_nLJkvxOcMmSoHjmtKkwevENq4/view?usp=sharing", "_blank");
+};
 const Home = ({ name , title  })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         id: "home",
@@ -28620,7 +28623,7 @@ const Home = ({ name , title  })=>{
                 alt: ""
             }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
-                lineNumber: 34,
+                lineNumber: 38,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28630,20 +28633,20 @@ const Home = ({ name , title  })=>{
                         children: name
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 36,
+                        lineNumber: 40,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                         children: title
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 37,
+                        lineNumber: 41,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Home.jsx",
-                lineNumber: 35,
+                lineNumber: 39,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28654,18 +28657,34 @@ const Home = ({ name , title  })=>{
                     className: "bounce"
                 }, void 0, false, {
                     fileName: "src/Components/Home.jsx",
-                    lineNumber: 40,
+                    lineNumber: 44,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
-                lineNumber: 39,
+                lineNumber: 43,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "download-cv",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                    className: "cv-button",
+                    onClick: downloadCV,
+                    children: "RESUME"
+                }, void 0, false, {
+                    fileName: "src/Components/Home.jsx",
+                    lineNumber: 47,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/Components/Home.jsx",
+                lineNumber: 46,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Home.jsx",
-        lineNumber: 33,
+        lineNumber: 37,
         columnNumber: 5
     }, undefined);
 };
@@ -28917,37 +28936,68 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 var _servicesCss = require("./Services.css");
 var _vscodePng = require("../images/services/vscode.png");
 var _vscodePngDefault = parcelHelpers.interopDefault(_vscodePng);
+var _excelPng = require("../images/services/Excel.png");
+var _excelPngDefault = parcelHelpers.interopDefault(_excelPng);
+var _githubMarkPng = require("../images/services/github-mark.png");
+var _githubMarkPngDefault = parcelHelpers.interopDefault(_githubMarkPng);
+var _pythonPng = require("../images/services/python.png");
+var _pythonPngDefault = parcelHelpers.interopDefault(_pythonPng);
+var _postgreSQLPng = require("../images/services/PostgreSQL.png");
+var _postgreSQLPngDefault = parcelHelpers.interopDefault(_postgreSQLPng);
+var _pandasMarkPng = require("../images/services/pandas_mark.png");
+var _pandasMarkPngDefault = parcelHelpers.interopDefault(_pandasMarkPng);
+var _numpylogoiconPng = require("../images/services/numpylogoicon.png");
+var _numpylogoiconPngDefault = parcelHelpers.interopDefault(_numpylogoiconPng);
+var _scikitLearnLogoPng = require("../images/services/scikit-learn-logo.png");
+var _scikitLearnLogoPngDefault = parcelHelpers.interopDefault(_scikitLearnLogoPng);
+var _seleniumLogoPng = require("../images/services/Selenium_Logo.png");
+var _seleniumLogoPngDefault = parcelHelpers.interopDefault(_seleniumLogoPng);
 const serviceList = [
     {
         title: "Visual Studio Code",
-        description: "Experience Coding & live-coding share with VSCode",
+        description: "Experienced with Visual Studio Code for efficient coding workflows",
         image: (0, _vscodePngDefault.default)
     },
     {
-        title: "Visual Studio Code",
-        description: "Experience Coding & live-coding share with VSCode",
-        image: (0, _vscodePngDefault.default)
+        title: "Microsoft Excel",
+        description: "Proficient in Microsoft Excel for data analysis and spreadsheet management",
+        image: (0, _excelPngDefault.default)
     },
     {
-        title: "Visual Studio Code",
-        description: "Experience Coding & live-coding share with VSCode",
-        image: (0, _vscodePngDefault.default)
+        title: "GitHub",
+        description: "Experienced in GitHub for version control and collaborative coding",
+        image: (0, _githubMarkPngDefault.default)
     },
     {
-        title: "Visual Studio Code",
-        description: "Experience Coding & live-coding share with VSCode",
-        image: (0, _vscodePngDefault.default)
+        title: "Python",
+        description: "Skilled in Python for versatile and efficient programming",
+        image: (0, _pythonPngDefault.default)
     },
     {
-        title: "Visual Studio Code",
-        description: "Experience Coding & live-coding share with VSCode",
-        image: (0, _vscodePngDefault.default)
+        title: "PostgreSQL",
+        description: "Familiar with PostgreSQL for basic data analysis and database management",
+        image: (0, _postgreSQLPngDefault.default)
     },
     {
-        title: "Visual Studio Code",
-        description: "Experience Coding & live-coding share with VSCode",
-        image: (0, _vscodePngDefault.default)
-    }, 
+        title: "Pandas",
+        description: "Proficient in pandas for data manipulation, analysis, and visualization",
+        image: (0, _pandasMarkPngDefault.default)
+    },
+    {
+        title: "NumPy",
+        description: "Skilled in NumPy for efficient numerical computations in Python",
+        image: (0, _numpylogoiconPngDefault.default)
+    },
+    {
+        title: "Scikit-learn",
+        description: "Proficient in scikit-learn for machine learning and predictive modeling",
+        image: (0, _scikitLearnLogoPngDefault.default)
+    },
+    {
+        title: "Selenium",
+        description: "Skilled in Selenium for browser automation and web scraping tasks",
+        image: (0, _seleniumLogoPngDefault.default)
+    }
 ];
 const Services = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
@@ -28958,10 +29008,10 @@ const Services = ()=>{
                 style: {
                     textAlign: "center"
                 },
-                children: "Services"
+                children: "Technologies I use"
             }, void 0, false, {
                 fileName: "src/Components/Services.jsx",
-                lineNumber: 42,
+                lineNumber: 65,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28985,7 +29035,7 @@ const Services = ()=>{
                                             alt: "vscode"
                                         }, void 0, false, {
                                             fileName: "src/Components/Services.jsx",
-                                            lineNumber: 49,
+                                            lineNumber: 72,
                                             columnNumber: 19
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28995,52 +29045,52 @@ const Services = ()=>{
                                                     children: service.title
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Services.jsx",
-                                                    lineNumber: 51,
+                                                    lineNumber: 74,
                                                     columnNumber: 21
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                                     children: service.description
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Services.jsx",
-                                                    lineNumber: 52,
+                                                    lineNumber: 75,
                                                     columnNumber: 21
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/Components/Services.jsx",
-                                            lineNumber: 50,
+                                            lineNumber: 73,
                                             columnNumber: 19
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/Components/Services.jsx",
-                                    lineNumber: 48,
+                                    lineNumber: 71,
                                     columnNumber: 17
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/Components/Services.jsx",
-                                lineNumber: 47,
+                                lineNumber: 70,
                                 columnNumber: 15
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/Components/Services.jsx",
-                            lineNumber: 46,
+                            lineNumber: 69,
                             columnNumber: 13
                         }, undefined))
                 }, void 0, false, {
                     fileName: "src/Components/Services.jsx",
-                    lineNumber: 44,
+                    lineNumber: 67,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Services.jsx",
-                lineNumber: 43,
+                lineNumber: 66,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Services.jsx",
-        lineNumber: 41,
+        lineNumber: 64,
         columnNumber: 5
     }, undefined);
 };
@@ -29054,8 +29104,32 @@ $RefreshReg$(_c, "Services");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Services.css":"81s8Q","../images/services/vscode.png":"lYgUR","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"81s8Q":[function() {},{}],"lYgUR":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Services.css":"81s8Q","../images/services/vscode.png":"lYgUR","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/services/Excel.png":"32tes","../images/services/github-mark.png":"ehqDo","../images/services/python.png":"3tcFv","../images/services/PostgreSQL.png":"lFspD","../images/services/pandas_mark.png":"jazwe","../images/services/numpylogoicon.png":"7xuQu","../images/services/scikit-learn-logo.png":"ihgYK","../images/services/Selenium_Logo.png":"alb9n"}],"81s8Q":[function() {},{}],"lYgUR":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "vscode.fe23b05a.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"32tes":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "Excel.182e8898.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"ehqDo":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "github-mark.91bca381.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"3tcFv":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "python.68bb31dc.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"lFspD":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "PostgreSQL.11c4321e.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"jazwe":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "pandas_mark.52ed8595.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"7xuQu":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "numpylogoicon.47bf981b.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"ihgYK":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "scikit-learn-logo.ff282b34.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"alb9n":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "Selenium_Logo.424b9d48.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lW6qc":[function() {},{}],"hqLjq":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$2eaf = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");

@@ -398,6 +398,38 @@ img.socialIcon {
   transform: translate(-50%, -50%);
 }
 
+.download-cv {
+  border-radius: 5px;
+  padding: 0;
+  text-decoration: none;
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+}
+
+.cv-button {
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  min-width: 10.2rem;
+  height: 2.5rem;
+  background-color: #0000;
+  border: 2px solid #000;
+  justify-content: center;
+  align-items: center;
+  gap: .7rem;
+  font-family: neuehaas55, sans-serif;
+  font-size: 1rem;
+  transition: all .4s;
+  display: flex;
+}
+
+.cv-button:hover {
+  color: #ab0707;
+  cursor: url("a.2913bc97.png"), auto;
+  background-color: #000;
+}
+
 @media screen and (max-width: 600px) {
   .home-background {
     min-width: 100%;
@@ -438,6 +470,20 @@ img.socialIcon {
     bottom: 4rem;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+
+  .download-cv {
+    width: 100%;
+    max-width: 90%;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .cv-button {
+    width: 100%;
+    max-width: auto;
   }
 }
 
