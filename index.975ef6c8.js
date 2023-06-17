@@ -29364,6 +29364,28 @@ const GetInTouch = ()=>{
                 fileName: "src/Components/GetInTouch.jsx",
                 lineNumber: 38,
                 columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                class: "badge-base LI-profile-badge",
+                "data-locale": "en_US",
+                "data-size": "medium",
+                "data-theme": "dark",
+                "data-type": "VERTICAL",
+                "data-vanity": "45h15h",
+                "data-version": "v1",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                    class: "badge-base__link LI-simple-link",
+                    href: "https://in.linkedin.com/in/45h15h?trk=profile-badge",
+                    children: "Ashish Singh"
+                }, void 0, false, {
+                    fileName: "src/Components/GetInTouch.jsx",
+                    lineNumber: 72,
+                    columnNumber: 171
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/Components/GetInTouch.jsx",
+                lineNumber: 72,
+                columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
