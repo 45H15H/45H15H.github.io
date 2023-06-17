@@ -67,7 +67,9 @@ const GetInTouch = () => {
             <input type="hidden" name="_captcha" value="false" />
           </form>
         </div>
-      )}
+            
+            )}
+            <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="45h15h" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/45h15h?trk=profile-badge">Ashish Singh</a></div>
     </section>
   );
 };
