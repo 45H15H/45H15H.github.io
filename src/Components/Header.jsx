@@ -9,7 +9,7 @@ import { useState } from "react";
 
 import "./Header.css";
 
-import "animate.css";
+// import "animate.css";
 
 const Header = () => {
 
