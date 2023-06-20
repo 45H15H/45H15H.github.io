@@ -24,6 +24,7 @@ const Header = () => {
       <div className="nav-bar">
         <a href="#home">Home</a>
         <a href="#about">About</a>
+        <a href='#services'>Technologies</a>
         <a href="#portfolio">Portfolio</a>
         <a href="#get-in-touch">Contact</a>
       </div>
@@ -40,6 +41,7 @@ const Header = () => {
       <div className={`nav-column ${showMenu ? 'open' : ''}`}>   
         <a href="#home">Home</a>
         <a href="#about">About</a>
+        <a href='#services'>Technologies</a>
         <a href="#portfolio">Portfolio</a>
         <a href="#get-in-touch">Contact</a>
       </div>

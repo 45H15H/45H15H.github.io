@@ -93,17 +93,17 @@ const Portfolio = () => {
         <div className="container">
           {projectList.map((project) => (
             <div className="box" key={project.title}>
-              <div className="card">
-                <img src={project.image} alt={project.title} />
-                <div className="card-content">
-                  <h3 style={{ fontWeight: "bold", fontSize: "16px", fontFamily: "Arial" }}>
-                    <a href={project.url} target="_blank" rel="noopener noreferrer">
+              <a href={project.url} target="_blank" rel="noopener noreferrer">
+                <div className="card">
+                  <img src={project.image} alt={project.title} />
+                  <div className="card-content">
+                    <h3 style={{ fontWeight: "bold", fontSize: "16px", fontFamily: "Arial" }}>
                       {project.title}
-                    </a>
-                  </h3>
-                  <p style={{ fontSize: "16px", fontFamily: "Arial" }}>{project.description}</p>
+                    </h3>
+                    <p style={{ fontSize: "16px", fontFamily: "Arial" }}>{project.description}</p>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
           ))}
         </div>

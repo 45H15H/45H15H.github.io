@@ -11,6 +11,10 @@
   z-index: 10;
 }
 
+.nav-bar a {
+  cursor: url("../images/cursor/a.png"), auto;
+}
+
 .nav-column {
   display: none;
   flex-direction: column;
