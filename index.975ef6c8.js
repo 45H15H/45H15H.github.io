@@ -27232,7 +27232,7 @@ const About = ()=>{
                 className: "about-container",
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                        children: "About Me"
+                        children: "About me"
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
                         lineNumber: 57,
@@ -28549,11 +28549,19 @@ const Header = ()=>{
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                        href: "#services",
+                        children: "Technologies"
+                    }, void 0, false, {
+                        fileName: "src/Components/Header.jsx",
+                        lineNumber: 27,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                         href: "#portfolio",
                         children: "Portfolio"
                     }, void 0, false, {
                         fileName: "src/Components/Header.jsx",
-                        lineNumber: 27,
+                        lineNumber: 28,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28561,7 +28569,7 @@ const Header = ()=>{
                         children: "Contact"
                     }, void 0, false, {
                         fileName: "src/Components/Header.jsx",
-                        lineNumber: 28,
+                        lineNumber: 29,
                         columnNumber: 9
                     }, undefined)
                 ]
@@ -28580,13 +28588,6 @@ const Header = ()=>{
                             className: `burger-bar ${showMenu ? "open" : ""}`
                         }, void 0, false, {
                             fileName: "src/Components/Header.jsx",
-                            lineNumber: 33,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: `burger-bar ${showMenu ? "open" : ""}`
-                        }, void 0, false, {
-                            fileName: "src/Components/Header.jsx",
                             lineNumber: 34,
                             columnNumber: 11
                         }, undefined),
@@ -28596,16 +28597,23 @@ const Header = ()=>{
                             fileName: "src/Components/Header.jsx",
                             lineNumber: 35,
                             columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: `burger-bar ${showMenu ? "open" : ""}`
+                        }, void 0, false, {
+                            fileName: "src/Components/Header.jsx",
+                            lineNumber: 36,
+                            columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/Components/Header.jsx",
-                    lineNumber: 32,
+                    lineNumber: 33,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 31,
+                lineNumber: 32,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28616,7 +28624,7 @@ const Header = ()=>{
                         children: "Home"
                     }, void 0, false, {
                         fileName: "src/Components/Header.jsx",
-                        lineNumber: 41,
+                        lineNumber: 42,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28624,7 +28632,15 @@ const Header = ()=>{
                         children: "About"
                     }, void 0, false, {
                         fileName: "src/Components/Header.jsx",
-                        lineNumber: 42,
+                        lineNumber: 43,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                        href: "#services",
+                        children: "Technologies"
+                    }, void 0, false, {
+                        fileName: "src/Components/Header.jsx",
+                        lineNumber: 44,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28632,7 +28648,7 @@ const Header = ()=>{
                         children: "Portfolio"
                     }, void 0, false, {
                         fileName: "src/Components/Header.jsx",
-                        lineNumber: 43,
+                        lineNumber: 45,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28640,13 +28656,13 @@ const Header = ()=>{
                         children: "Contact"
                     }, void 0, false, {
                         fileName: "src/Components/Header.jsx",
-                        lineNumber: 44,
+                        lineNumber: 46,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 40,
+                lineNumber: 41,
                 columnNumber: 7
             }, undefined)
         ]
@@ -28911,60 +28927,60 @@ const Portfolio = ()=>{
                     className: "container",
                     children: projectList.map((project)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "box",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "card",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                        src: project.image,
-                                        alt: project.title
-                                    }, void 0, false, {
-                                        fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 97,
-                                        columnNumber: 17
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "card-content",
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                                style: {
-                                                    fontWeight: "bold",
-                                                    fontSize: "16px",
-                                                    fontFamily: "Arial"
-                                                },
-                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                    href: project.url,
-                                                    target: "_blank",
-                                                    rel: "noopener noreferrer",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: project.url,
+                                target: "_blank",
+                                rel: "noopener noreferrer",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "card",
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                            src: project.image,
+                                            alt: project.title
+                                        }, void 0, false, {
+                                            fileName: "src/Components/Portfolio.jsx",
+                                            lineNumber: 98,
+                                            columnNumber: 19
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "card-content",
+                                            children: [
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                                    style: {
+                                                        fontWeight: "bold",
+                                                        fontSize: "16px",
+                                                        fontFamily: "Arial"
+                                                    },
                                                     children: project.title
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Portfolio.jsx",
                                                     lineNumber: 100,
                                                     columnNumber: 21
+                                                }, undefined),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                    style: {
+                                                        fontSize: "16px",
+                                                        fontFamily: "Arial"
+                                                    },
+                                                    children: project.description
+                                                }, void 0, false, {
+                                                    fileName: "src/Components/Portfolio.jsx",
+                                                    lineNumber: 103,
+                                                    columnNumber: 21
                                                 }, undefined)
-                                            }, void 0, false, {
-                                                fileName: "src/Components/Portfolio.jsx",
-                                                lineNumber: 99,
-                                                columnNumber: 19
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                style: {
-                                                    fontSize: "16px",
-                                                    fontFamily: "Arial"
-                                                },
-                                                children: project.description
-                                            }, void 0, false, {
-                                                fileName: "src/Components/Portfolio.jsx",
-                                                lineNumber: 104,
-                                                columnNumber: 19
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 98,
-                                        columnNumber: 17
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/Components/Portfolio.jsx",
+                                            lineNumber: 99,
+                                            columnNumber: 19
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/Components/Portfolio.jsx",
+                                    lineNumber: 97,
+                                    columnNumber: 17
+                                }, undefined)
+                            }, void 0, false, {
                                 fileName: "src/Components/Portfolio.jsx",
                                 lineNumber: 96,
                                 columnNumber: 15
