@@ -66,6 +66,12 @@
     transition-delay: 0s;
     transition-property: all;
   }
+
+.cv-button:focus,
+.cv-button:active {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
   
   .cv-button:hover {
     background-color: black;
