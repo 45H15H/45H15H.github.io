@@ -69,6 +69,12 @@
   transition: all 0.5s ease-in-out;
 }
 
+.nav-column a:focus,
+.nav-column a:active {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
 .nav-column.open {
   left: 5%;
 }
@@ -87,6 +93,12 @@
   border: none;
   padding: 0;
   z-index: 10;
+}
+
+.burger-btn:focus,
+.burger-btn:active {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .burger-bar {

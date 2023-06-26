@@ -17,6 +17,12 @@
     gap: 2.5rem;
 }
 
+.social-icons:focus,
+.social-icons:active {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
 /* responsive styles */
 @media screen and (max-width: 600px) {
     .social-icons {
