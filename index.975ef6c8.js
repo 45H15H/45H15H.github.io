@@ -28721,7 +28721,7 @@ var _bloodFfffffBgWebpDefault = parcelHelpers.interopDefault(_bloodFfffffBgWebp)
 // import portraitImage from "../images/portrait-girl-with-laptop.jpg";
 const imageAltText = "Adult female in office setting leaning against a glass wall while holding a platinum Microsoft Surface Pro 7 in tablet mode preparing to write with Microsoft Surface Pen";
 const downloadCV = ()=>{
-    window.open("https://drive.google.com/file/d/11KVzos_nLJkvxOcMmSoHjmtKkwevENq4/view?usp=sharing", "_blank");
+    window.open("https://45h15h.github.io/resume/", "_blank");
 };
 const Home = ({ name , title  })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
