@@ -28865,6 +28865,8 @@ var _automationPng = require("../images/projects/automation.png");
 var _automationPngDefault = parcelHelpers.interopDefault(_automationPng);
 var _musicJpg = require("../images/projects/music.jpg");
 var _musicJpgDefault = parcelHelpers.interopDefault(_musicJpg);
+var _maskedFaceJpg = require("../images/projects/masked_face.jpg");
+var _maskedFaceJpgDefault = parcelHelpers.interopDefault(_maskedFaceJpg);
 /**
  * Project list
  *
@@ -28900,6 +28902,12 @@ var _musicJpgDefault = parcelHelpers.interopDefault(_musicJpg);
         description: "A collection of practical GUI automation projects.",
         url: "https://github.com/45H15H/GUI-Automation/",
         image: (0, _automationPngDefault.default)
+    },
+    {
+        title: "Image Anonymizer",
+        description: "Utilizing image recognition techniques to automatically detect and mask faces in images.",
+        url: "https://github.com/45H15H/Privacy_protection",
+        image: (0, _maskedFaceJpgDefault.default)
     }, 
 ];
 const Portfolio = ()=>{
@@ -28914,7 +28922,7 @@ const Portfolio = ()=>{
                 children: "Portfolio"
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 79,
+                lineNumber: 86,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28939,7 +28947,7 @@ const Portfolio = ()=>{
                                             alt: project.title
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 98,
+                                            lineNumber: 105,
                                             columnNumber: 19
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28954,7 +28962,7 @@ const Portfolio = ()=>{
                                                     children: project.title
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Portfolio.jsx",
-                                                    lineNumber: 100,
+                                                    lineNumber: 107,
                                                     columnNumber: 21
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28965,45 +28973,45 @@ const Portfolio = ()=>{
                                                     children: project.description
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Portfolio.jsx",
-                                                    lineNumber: 103,
+                                                    lineNumber: 110,
                                                     columnNumber: 21
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 99,
+                                            lineNumber: 106,
                                             columnNumber: 19
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/Components/Portfolio.jsx",
-                                    lineNumber: 97,
+                                    lineNumber: 104,
                                     columnNumber: 17
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 96,
+                                lineNumber: 103,
                                 columnNumber: 15
                             }, undefined)
                         }, project.title, false, {
                             fileName: "src/Components/Portfolio.jsx",
-                            lineNumber: 95,
+                            lineNumber: 102,
                             columnNumber: 13
                         }, undefined))
                 }, void 0, false, {
                     fileName: "src/Components/Portfolio.jsx",
-                    lineNumber: 93,
+                    lineNumber: 100,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 80,
+                lineNumber: 87,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Portfolio.jsx",
-        lineNumber: 78,
+        lineNumber: 85,
         columnNumber: 5
     }, undefined);
 };
@@ -29017,7 +29025,7 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Portfolio.css":"a3pyr","../images/projects/ted.png":"anuuf","../images/projects/valorant.jpg":"dCgaW","../images/projects/resume.jpg":"einl1","../images/projects/automation.png":"apM8P","../images/projects/music.jpg":"29ZI6","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"a3pyr":[function() {},{}],"anuuf":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Portfolio.css":"a3pyr","../images/projects/ted.png":"anuuf","../images/projects/valorant.jpg":"dCgaW","../images/projects/resume.jpg":"einl1","../images/projects/automation.png":"apM8P","../images/projects/music.jpg":"29ZI6","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/projects/masked_face.jpg":"3ecTp"}],"a3pyr":[function() {},{}],"anuuf":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "ted.09da28c7.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"dCgaW":[function(require,module,exports) {
@@ -29031,6 +29039,9 @@ module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "automa
 
 },{"./helpers/bundle-url":"lgJ39"}],"29ZI6":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "music.4ab5354d.jpg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"3ecTp":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "masked_face.75b10eca.jpg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"iwRVc":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$dd7d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
