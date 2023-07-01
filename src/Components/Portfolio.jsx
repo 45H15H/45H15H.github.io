@@ -30,6 +30,7 @@ import image_valorant from "../images/projects/valorant.jpg";
 import image_resume from "../images/projects/resume.jpg";
 import image_automation from "../images/projects/automation.png";
 import image_lyrics from "../images/projects/music.jpg";
+import image_face from "../images/projects/masked_face.jpg";
 
 /**
  * Project list
@@ -70,6 +71,12 @@ const projectList = [
     description: "A collection of practical GUI automation projects.",
     url: "https://github.com/45H15H/GUI-Automation/",
     image: image_automation,
+  },
+  {
+    title: "Image Anonymizer",
+    description: "Utilizing image recognition techniques to automatically detect and mask faces in images.",
+    url: "https://github.com/45H15H/Privacy_protection",
+    image: image_face,
   },
 ];
 
