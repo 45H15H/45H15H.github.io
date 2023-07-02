@@ -35,6 +35,7 @@ const siteProps = {
   medium: "",
   twitter: "",
   youTube: "",
+  kaggle: "ashish51ngh",
 };
 
 const primaryColor = "#4E567E";
