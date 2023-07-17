@@ -33,7 +33,41 @@ const GetInTouch = () => {
     <section className="padding" id="get-in-touch">
       <h2 style={{ textAlign: "center" }}>Get in touch</h2>
       {formSubmitted ? (
-        <p style={{ textAlign: "center", color: "green" }}>The form was sent successfully.</p>
+        <div className="form-group">
+        <form className="form-container" action="https://formsubmit.co/ba41da6c67d91268a736dff7695f290a" method="POST" onSubmit={handleSubmit}>
+          <div className="form-row">
+            <label htmlFor="name" className="form-label">
+              Name <span className="form-required">*</span>
+            </label>
+          </div>
+          <div className="form-row-input">
+            <input type="text" id="name" name="name" value={name} onChange={(event) => setName(event.target.value)} className="form-input" required />
+          </div>
+          <div className="form-row">
+            <label htmlFor="email" className="form-label">
+              Email Address <span className="form-required">*</span>
+            </label>
+          </div>
+          <div className="form-row-input">
+            <input type="email" id="email" name="email" value={email} onChange={(event) => setEmail(event.target.value)} className="form-input" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" />
+          </div>
+          <div className="form-row">
+            <label htmlFor="message" className="form-label">
+              Message <span className="form-required">*</span>
+            </label>
+          </div>
+          <div className="form-row-input">
+            <textarea id="message" name="message" rows="5" value={message} onChange={(event) => setMessage(event.target.value)} className="form-textarea" required></textarea>
+          </div>
+          <button type="submit" className="form-submit">
+            SEND
+          </button>
+          <input type="hidden" name="_captcha" value="false" />
+          <div>
+            <p style={{ textAlign: "center", color: "green" }}>Your submission was successful.</p>
+          </div>
+        </form>
+      </div>
       ) : (
         <div className="form-group">
           <form className="form-container" action="https://formsubmit.co/ba41da6c67d91268a736dff7695f290a" method="POST" onSubmit={handleSubmit}>
@@ -43,7 +77,7 @@ const GetInTouch = () => {
               </label>
             </div>
             <div className="form-row-input">
-              <input type="text" id="name" name="name" value={name} onChange={(event) => setName(event.target.value)} className="form-input" />
+              <input type="text" id="name" name="name" value={name} onChange={(event) => setName(event.target.value)} className="form-input" required />
             </div>
             <div className="form-row">
               <label htmlFor="email" className="form-label">
@@ -51,7 +85,7 @@ const GetInTouch = () => {
               </label>
             </div>
             <div className="form-row-input">
-              <input type="email" id="email" name="email" value={email} onChange={(event) => setEmail(event.target.value)} className="form-input" />
+              <input type="email" id="email" name="email" value={email} onChange={(event) => setEmail(event.target.value)} className="form-input" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" />
             </div>
             <div className="form-row">
               <label htmlFor="message" className="form-label">
@@ -59,7 +93,7 @@ const GetInTouch = () => {
               </label>
             </div>
             <div className="form-row-input">
-              <textarea id="message" name="message" rows="5" value={message} onChange={(event) => setMessage(event.target.value)} className="form-textarea"></textarea>
+              <textarea id="message" name="message" rows="5" value={message} onChange={(event) => setMessage(event.target.value)} className="form-textarea" required></textarea>
             </div>
             <button type="submit" className="form-submit">
               SEND
