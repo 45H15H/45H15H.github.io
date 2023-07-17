@@ -28,7 +28,7 @@ import "./Portfolio.css";
 import image_ted from "../images/projects/ted.png";
 import image_valorant from "../images/projects/valorant.jpg";
 import image_resume from "../images/projects/resume.jpg";
-import image_automation from "../images/projects/automation.png";
+import image_automation from "../images/projects/gui-automation.jpg";
 import image_lyrics from "../images/projects/music.jpg";
 import image_face from "../images/projects/masked_face.jpg";
 
@@ -40,9 +40,9 @@ import image_face from "../images/projects/masked_face.jpg";
  */
 const projectList = [
   {
-    title: "Scraping TED Talks' transcript",
+    title: "Visualizing TED Talks",
     description:
-      "Scraping the transcript of TED Talks from www.ted.com/talks and visualizing it using WordCloud.",
+      "Scraping the transcript of TED Talks and visualizing it using WordCloud.",
     url: "https://github.com/45H15H/Scraping-TED",
     image: image_ted,
   },
