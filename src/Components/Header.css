@@ -198,6 +198,8 @@ body::before {
 
 body.menu-open::before {
   animation: fadeInOverlay 0.5s ease-in-out forwards;
+  /* pointer-events: auto; */
+  z-index: 2;
 }
 
 @keyframes fadeInOverlay {
@@ -211,6 +213,8 @@ body.menu-open::before {
 
 body:not(.menu-open)::before {
   animation: fadeOutOverlay 0.5s ease-in-out forwards;
+  pointer-events: none;
+  z-index: 2;
 }
 
 @keyframes fadeOutOverlay {
