@@ -507,6 +507,7 @@ img.socialIcon {
   }
 
   body.menu-open:before {
+    z-index: 2;
     animation: fadeInOverlay .5s ease-in-out forwards;
   }
 
@@ -521,6 +522,8 @@ img.socialIcon {
   }
 
   body:not(.menu-open):before {
+    pointer-events: none;
+    z-index: 2;
     animation: fadeOutOverlay .5s ease-in-out forwards;
   }
 
@@ -636,6 +639,7 @@ img.socialIcon {
   .download-cv {
     width: 100%;
     max-width: 90%;
+    z-index: 1;
     position: absolute;
     top: 85%;
     left: 50%;
@@ -651,6 +655,7 @@ img.socialIcon {
 @media screen and (max-width: 600px) {
   .container {
     width: 100%;
+    z-index: 1;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
