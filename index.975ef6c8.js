@@ -28550,6 +28550,10 @@ const Header = ()=>{
     const [showMenu, setShowMenu] = (0, _react.useState)(false);
     const toggleMenu = ()=>{
         setShowMenu(!showMenu);
+        const burger = document.querySelector(".burger");
+        burger.classList.toggle("open");
+        const body = document.querySelector("body");
+        body.classList.toggle("menu-open");
     };
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: [
@@ -28561,7 +28565,7 @@ const Header = ()=>{
                         children: "Home"
                     }, void 0, false, {
                         fileName: "src/Components/Header.jsx",
-                        lineNumber: 25,
+                        lineNumber: 30,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28569,7 +28573,7 @@ const Header = ()=>{
                         children: "About"
                     }, void 0, false, {
                         fileName: "src/Components/Header.jsx",
-                        lineNumber: 26,
+                        lineNumber: 31,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28577,7 +28581,7 @@ const Header = ()=>{
                         children: "Technologies"
                     }, void 0, false, {
                         fileName: "src/Components/Header.jsx",
-                        lineNumber: 27,
+                        lineNumber: 32,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28585,7 +28589,7 @@ const Header = ()=>{
                         children: "Portfolio"
                     }, void 0, false, {
                         fileName: "src/Components/Header.jsx",
-                        lineNumber: 28,
+                        lineNumber: 33,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28593,52 +28597,64 @@ const Header = ()=>{
                         children: "Contact"
                     }, void 0, false, {
                         fileName: "src/Components/Header.jsx",
-                        lineNumber: 29,
+                        lineNumber: 34,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 24,
+                lineNumber: 29,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "burger",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                    className: "burger-btn",
+                    className: "menu",
                     onClick: toggleMenu,
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: `burger-bar ${showMenu ? "open" : ""}`
-                        }, void 0, false, {
-                            fileName: "src/Components/Header.jsx",
-                            lineNumber: 34,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: `burger-bar ${showMenu ? "open" : ""}`
-                        }, void 0, false, {
-                            fileName: "src/Components/Header.jsx",
-                            lineNumber: 35,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: `burger-bar ${showMenu ? "open" : ""}`
-                        }, void 0, false, {
-                            fileName: "src/Components/Header.jsx",
-                            lineNumber: 36,
-                            columnNumber: 11
-                        }, undefined)
-                    ]
-                }, void 0, true, {
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                        width: "100",
+                        height: "100",
+                        viewBox: "0 0 100 100",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                className: "line line1",
+                                d: "M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"
+                            }, void 0, false, {
+                                fileName: "src/Components/Header.jsx",
+                                lineNumber: 49,
+                                columnNumber: 9
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                className: "line line2",
+                                d: "M 20,50 H 80"
+                            }, void 0, false, {
+                                fileName: "src/Components/Header.jsx",
+                                lineNumber: 50,
+                                columnNumber: 9
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                className: "line line3",
+                                d: "M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"
+                            }, void 0, false, {
+                                fileName: "src/Components/Header.jsx",
+                                lineNumber: 51,
+                                columnNumber: 9
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/Components/Header.jsx",
+                        lineNumber: 48,
+                        columnNumber: 7
+                    }, undefined)
+                }, void 0, false, {
                     fileName: "src/Components/Header.jsx",
-                    lineNumber: 33,
-                    columnNumber: 9
+                    lineNumber: 47,
+                    columnNumber: 5
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 32,
-                columnNumber: 7
+                lineNumber: 46,
+                columnNumber: 6
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: `nav-column ${showMenu ? "open" : ""}`,
@@ -28648,7 +28664,7 @@ const Header = ()=>{
                         children: "Home"
                     }, void 0, false, {
                         fileName: "src/Components/Header.jsx",
-                        lineNumber: 42,
+                        lineNumber: 57,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28656,7 +28672,7 @@ const Header = ()=>{
                         children: "About"
                     }, void 0, false, {
                         fileName: "src/Components/Header.jsx",
-                        lineNumber: 43,
+                        lineNumber: 58,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28664,7 +28680,7 @@ const Header = ()=>{
                         children: "Technologies"
                     }, void 0, false, {
                         fileName: "src/Components/Header.jsx",
-                        lineNumber: 44,
+                        lineNumber: 59,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28672,7 +28688,7 @@ const Header = ()=>{
                         children: "Portfolio"
                     }, void 0, false, {
                         fileName: "src/Components/Header.jsx",
-                        lineNumber: 45,
+                        lineNumber: 60,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28680,19 +28696,19 @@ const Header = ()=>{
                         children: "Contact"
                     }, void 0, false, {
                         fileName: "src/Components/Header.jsx",
-                        lineNumber: 46,
+                        lineNumber: 61,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 41,
+                lineNumber: 56,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Header.jsx",
-        lineNumber: 23,
+        lineNumber: 28,
         columnNumber: 5
     }, undefined);
 };
@@ -28885,8 +28901,8 @@ var _valorantJpg = require("../images/projects/valorant.jpg");
 var _valorantJpgDefault = parcelHelpers.interopDefault(_valorantJpg);
 var _resumeJpg = require("../images/projects/resume.jpg");
 var _resumeJpgDefault = parcelHelpers.interopDefault(_resumeJpg);
-var _automationPng = require("../images/projects/automation.png");
-var _automationPngDefault = parcelHelpers.interopDefault(_automationPng);
+var _guiAutomationJpg = require("../images/projects/gui-automation.jpg");
+var _guiAutomationJpgDefault = parcelHelpers.interopDefault(_guiAutomationJpg);
 var _musicJpg = require("../images/projects/music.jpg");
 var _musicJpgDefault = parcelHelpers.interopDefault(_musicJpg);
 var _maskedFaceJpg = require("../images/projects/masked_face.jpg");
@@ -28898,8 +28914,8 @@ var _maskedFaceJpgDefault = parcelHelpers.interopDefault(_maskedFaceJpg);
  * links section. Below is a sample, update to reflect links you'd like to highlight.
  */ const projectList = [
     {
-        title: "Scraping TED Talks' transcript",
-        description: "Scraping the transcript of TED Talks from www.ted.com/talks and visualizing it using WordCloud.",
+        title: "Visualizing TED Talks",
+        description: "Scraping the transcript of TED Talks and visualizing it using WordCloud.",
         url: "https://github.com/45H15H/Scraping-TED",
         image: (0, _tedPngDefault.default)
     },
@@ -28925,7 +28941,7 @@ var _maskedFaceJpgDefault = parcelHelpers.interopDefault(_maskedFaceJpg);
         title: "GUI Automation Showcase",
         description: "A collection of practical GUI automation projects.",
         url: "https://github.com/45H15H/GUI-Automation/",
-        image: (0, _automationPngDefault.default)
+        image: (0, _guiAutomationJpgDefault.default)
     },
     {
         title: "Image Anonymizer",
@@ -29049,7 +29065,7 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Portfolio.css":"a3pyr","../images/projects/ted.png":"anuuf","../images/projects/valorant.jpg":"dCgaW","../images/projects/resume.jpg":"einl1","../images/projects/automation.png":"apM8P","../images/projects/music.jpg":"29ZI6","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/projects/masked_face.jpg":"3ecTp"}],"a3pyr":[function() {},{}],"anuuf":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Portfolio.css":"a3pyr","../images/projects/ted.png":"anuuf","../images/projects/valorant.jpg":"dCgaW","../images/projects/resume.jpg":"einl1","../images/projects/music.jpg":"29ZI6","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/projects/masked_face.jpg":"3ecTp","../images/projects/gui-automation.jpg":"7rBF9"}],"a3pyr":[function() {},{}],"anuuf":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "ted.09da28c7.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"dCgaW":[function(require,module,exports) {
@@ -29058,14 +29074,14 @@ module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "valora
 },{"./helpers/bundle-url":"lgJ39"}],"einl1":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "resume.42da34cb.jpg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"apM8P":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "automation.743c5f85.png" + "?" + Date.now();
-
 },{"./helpers/bundle-url":"lgJ39"}],"29ZI6":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "music.4ab5354d.jpg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"3ecTp":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "masked_face.75b10eca.jpg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"7rBF9":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "gui-automation.9b0dcc5d.jpg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"iwRVc":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$dd7d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
@@ -29329,12 +29345,194 @@ const GetInTouch = ()=>{
                 lineNumber: 34,
                 columnNumber: 7
             }, undefined),
-            formSubmitted ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                style: {
-                    textAlign: "center",
-                    color: "green"
-                },
-                children: "The form was sent successfully."
+            formSubmitted ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "form-group",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
+                    className: "form-container",
+                    action: "https://formsubmit.co/ba41da6c67d91268a736dff7695f290a",
+                    method: "POST",
+                    onSubmit: handleSubmit,
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "form-row",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                htmlFor: "name",
+                                className: "form-label",
+                                children: [
+                                    "Name ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "form-required",
+                                        children: "*"
+                                    }, void 0, false, {
+                                        fileName: "src/Components/GetInTouch.jsx",
+                                        lineNumber: 40,
+                                        columnNumber: 20
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/Components/GetInTouch.jsx",
+                                lineNumber: 39,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/Components/GetInTouch.jsx",
+                            lineNumber: 38,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "form-row-input",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                type: "text",
+                                id: "name",
+                                name: "name",
+                                value: name,
+                                onChange: (event)=>setName(event.target.value),
+                                className: "form-input",
+                                required: true
+                            }, void 0, false, {
+                                fileName: "src/Components/GetInTouch.jsx",
+                                lineNumber: 44,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/Components/GetInTouch.jsx",
+                            lineNumber: 43,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "form-row",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                htmlFor: "email",
+                                className: "form-label",
+                                children: [
+                                    "Email Address ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "form-required",
+                                        children: "*"
+                                    }, void 0, false, {
+                                        fileName: "src/Components/GetInTouch.jsx",
+                                        lineNumber: 48,
+                                        columnNumber: 29
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/Components/GetInTouch.jsx",
+                                lineNumber: 47,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/Components/GetInTouch.jsx",
+                            lineNumber: 46,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "form-row-input",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                type: "email",
+                                id: "email",
+                                name: "email",
+                                value: email,
+                                onChange: (event)=>setEmail(event.target.value),
+                                className: "form-input",
+                                required: true,
+                                pattern: "[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,}$"
+                            }, void 0, false, {
+                                fileName: "src/Components/GetInTouch.jsx",
+                                lineNumber: 52,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/Components/GetInTouch.jsx",
+                            lineNumber: 51,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "form-row",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                htmlFor: "message",
+                                className: "form-label",
+                                children: [
+                                    "Message ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "form-required",
+                                        children: "*"
+                                    }, void 0, false, {
+                                        fileName: "src/Components/GetInTouch.jsx",
+                                        lineNumber: 56,
+                                        columnNumber: 23
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/Components/GetInTouch.jsx",
+                                lineNumber: 55,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/Components/GetInTouch.jsx",
+                            lineNumber: 54,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "form-row-input",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("textarea", {
+                                id: "message",
+                                name: "message",
+                                rows: "5",
+                                value: message,
+                                onChange: (event)=>setMessage(event.target.value),
+                                className: "form-textarea",
+                                required: true
+                            }, void 0, false, {
+                                fileName: "src/Components/GetInTouch.jsx",
+                                lineNumber: 60,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/Components/GetInTouch.jsx",
+                            lineNumber: 59,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                            type: "submit",
+                            className: "form-submit",
+                            children: "SEND"
+                        }, void 0, false, {
+                            fileName: "src/Components/GetInTouch.jsx",
+                            lineNumber: 62,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                            type: "hidden",
+                            name: "_captcha",
+                            value: "false"
+                        }, void 0, false, {
+                            fileName: "src/Components/GetInTouch.jsx",
+                            lineNumber: 65,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                style: {
+                                    textAlign: "center",
+                                    color: "green"
+                                },
+                                children: "Your submission was successful."
+                            }, void 0, false, {
+                                fileName: "src/Components/GetInTouch.jsx",
+                                lineNumber: 67,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/Components/GetInTouch.jsx",
+                            lineNumber: 66,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/Components/GetInTouch.jsx",
+                    lineNumber: 37,
+                    columnNumber: 9
+                }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/GetInTouch.jsx",
                 lineNumber: 36,
@@ -29359,18 +29557,18 @@ const GetInTouch = ()=>{
                                         children: "*"
                                     }, void 0, false, {
                                         fileName: "src/Components/GetInTouch.jsx",
-                                        lineNumber: 42,
+                                        lineNumber: 76,
                                         columnNumber: 22
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/GetInTouch.jsx",
-                                lineNumber: 41,
+                                lineNumber: 75,
                                 columnNumber: 15
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/Components/GetInTouch.jsx",
-                            lineNumber: 40,
+                            lineNumber: 74,
                             columnNumber: 13
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29381,15 +29579,16 @@ const GetInTouch = ()=>{
                                 name: "name",
                                 value: name,
                                 onChange: (event)=>setName(event.target.value),
-                                className: "form-input"
+                                className: "form-input",
+                                required: true
                             }, void 0, false, {
                                 fileName: "src/Components/GetInTouch.jsx",
-                                lineNumber: 46,
+                                lineNumber: 80,
                                 columnNumber: 15
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/Components/GetInTouch.jsx",
-                            lineNumber: 45,
+                            lineNumber: 79,
                             columnNumber: 13
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29404,18 +29603,18 @@ const GetInTouch = ()=>{
                                         children: "*"
                                     }, void 0, false, {
                                         fileName: "src/Components/GetInTouch.jsx",
-                                        lineNumber: 50,
+                                        lineNumber: 84,
                                         columnNumber: 31
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/GetInTouch.jsx",
-                                lineNumber: 49,
+                                lineNumber: 83,
                                 columnNumber: 15
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/Components/GetInTouch.jsx",
-                            lineNumber: 48,
+                            lineNumber: 82,
                             columnNumber: 13
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29426,15 +29625,17 @@ const GetInTouch = ()=>{
                                 name: "email",
                                 value: email,
                                 onChange: (event)=>setEmail(event.target.value),
-                                className: "form-input"
+                                className: "form-input",
+                                required: true,
+                                pattern: "[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,}$"
                             }, void 0, false, {
                                 fileName: "src/Components/GetInTouch.jsx",
-                                lineNumber: 54,
+                                lineNumber: 88,
                                 columnNumber: 15
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/Components/GetInTouch.jsx",
-                            lineNumber: 53,
+                            lineNumber: 87,
                             columnNumber: 13
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29449,18 +29650,18 @@ const GetInTouch = ()=>{
                                         children: "*"
                                     }, void 0, false, {
                                         fileName: "src/Components/GetInTouch.jsx",
-                                        lineNumber: 58,
+                                        lineNumber: 92,
                                         columnNumber: 25
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/GetInTouch.jsx",
-                                lineNumber: 57,
+                                lineNumber: 91,
                                 columnNumber: 15
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/Components/GetInTouch.jsx",
-                            lineNumber: 56,
+                            lineNumber: 90,
                             columnNumber: 13
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29471,15 +29672,16 @@ const GetInTouch = ()=>{
                                 rows: "5",
                                 value: message,
                                 onChange: (event)=>setMessage(event.target.value),
-                                className: "form-textarea"
+                                className: "form-textarea",
+                                required: true
                             }, void 0, false, {
                                 fileName: "src/Components/GetInTouch.jsx",
-                                lineNumber: 62,
+                                lineNumber: 96,
                                 columnNumber: 15
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/Components/GetInTouch.jsx",
-                            lineNumber: 61,
+                            lineNumber: 95,
                             columnNumber: 13
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -29488,7 +29690,7 @@ const GetInTouch = ()=>{
                             children: "SEND"
                         }, void 0, false, {
                             fileName: "src/Components/GetInTouch.jsx",
-                            lineNumber: 64,
+                            lineNumber: 98,
                             columnNumber: 13
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -29497,18 +29699,18 @@ const GetInTouch = ()=>{
                             value: "false"
                         }, void 0, false, {
                             fileName: "src/Components/GetInTouch.jsx",
-                            lineNumber: 67,
+                            lineNumber: 101,
                             columnNumber: 13
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/Components/GetInTouch.jsx",
-                    lineNumber: 39,
+                    lineNumber: 73,
                     columnNumber: 11
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/GetInTouch.jsx",
-                lineNumber: 38,
+                lineNumber: 72,
                 columnNumber: 9
             }, undefined)
         ]
