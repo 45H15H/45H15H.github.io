@@ -19,6 +19,9 @@ const Header = () => {
     setShowMenu(!showMenu);
     const burger = document.querySelector('.burger');
     burger.classList.toggle('open');
+
+    const body = document.querySelector('body');
+    body.classList.toggle('menu-open');
   };
 
   return (
