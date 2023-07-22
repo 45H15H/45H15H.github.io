@@ -147,3 +147,29 @@
         max-width: auto;
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .name-title {
+        position: absolute;
+        width: auto;
+        text-align: center;
+        top: 47%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .name-title h1 {
+        font-size: 40px;
+        letter-spacing: 0.8rem;
+        margin-bottom: -1rem;
+        width: auto;
+    }
+
+    .name-title h2 {
+        font-size: 20px;
+        margin-top: 1rem;
+        text-align: center;
+        letter-spacing: 0.6rem;
+        width: max-content;
+    }
+}

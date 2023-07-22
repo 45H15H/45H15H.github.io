@@ -49,3 +49,24 @@
       height: 180px;
     }
   }
+
+
+  @media screen and (min-width: 768px) and (max-width: 1024px){
+    .container {
+      display: grid;
+      /* grid-template-columns: 300px 300px; */
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust the grid-template-columns property */
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      margin-top: 0px;
+      padding: 0px 25px;
+      z-index: 1;
+      }
+  
+  
+      .box {
+        width: 90%;
+        height: 11rem;
+      }
+  }
