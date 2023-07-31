@@ -27712,7 +27712,7 @@ var _kaggleSvgDefault = parcelHelpers.interopDefault(_kaggleSvg);
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                 className: "small",
                 style: {
-                    marginTop: 0,
+                    marginTop: 10,
                     color: "black",
                     fontSize: 16
                 },

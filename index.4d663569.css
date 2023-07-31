@@ -334,7 +334,7 @@ img.socialIcon {
   justify-content: center;
   align-items: center;
   gap: 2.5rem;
-  padding: 5rem 0 3rem;
+  padding: 1rem 0;
   display: flex;
 }
 
@@ -342,6 +342,8 @@ img.socialIcon {
   justify-content: center;
   align-items: center;
   gap: 2.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: -1rem;
   display: flex;
 }
 
@@ -354,10 +356,11 @@ img.socialIcon {
   .social-icons {
     max-width: 800px;
     flex-wrap: wrap;
+    gap: 2rem;
   }
 
   .footer-container {
-    height: 15px;
+    height: 70px;
     gap: 1rem;
   }
 
@@ -374,7 +377,7 @@ img.socialIcon {
   }
 
   .footer-container {
-    height: 30px;
+    height: 70px;
     gap: 1rem;
   }
 
