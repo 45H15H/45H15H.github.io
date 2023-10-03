@@ -27757,7 +27757,7 @@ $RefreshReg$(_c, "Footer");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"7wKI2","./Footer.css":"gG5u2","../images/socials/devdotto.svg":"69cpV","../images/socials/envelope.svg":"92UhI","../images/socials/github.svg":"vP2m6","../images/socials/instagram.svg":"jH0VA","../images/socials/linkedin.svg":"5XSmz","../images/socials/medium.svg":"cDDa0","../images/socials/twitter.svg":"flM6L","../images/socials/youtube.svg":"hmN7D","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/socials/kaggle.svg":"98LPe"}],"7wKI2":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"7wKI2","./Footer.css":"gG5u2","../images/socials/devdotto.svg":"69cpV","../images/socials/envelope.svg":"92UhI","../images/socials/github.svg":"vP2m6","../images/socials/instagram.svg":"jH0VA","../images/socials/linkedin.svg":"5XSmz","../images/socials/medium.svg":"cDDa0","../images/socials/twitter.svg":"flM6L","../images/socials/youtube.svg":"hmN7D","../images/socials/kaggle.svg":"98LPe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7wKI2":[function(require,module,exports) {
 var ReactIs = require("react-is");
 // By explicitly using `prop-types` you are opting into new development behavior.
 // http://fb.me/prop-types-in-prod
@@ -29065,7 +29065,7 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Portfolio.css":"a3pyr","../images/projects/ted.png":"anuuf","../images/projects/valorant.jpg":"dCgaW","../images/projects/resume.jpg":"einl1","../images/projects/music.jpg":"29ZI6","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/projects/masked_face.jpg":"3ecTp","../images/projects/gui-automation.jpg":"7rBF9"}],"a3pyr":[function() {},{}],"anuuf":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Portfolio.css":"a3pyr","../images/projects/ted.png":"anuuf","../images/projects/valorant.jpg":"dCgaW","../images/projects/resume.jpg":"einl1","../images/projects/gui-automation.jpg":"7rBF9","../images/projects/music.jpg":"29ZI6","../images/projects/masked_face.jpg":"3ecTp","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"a3pyr":[function() {},{}],"anuuf":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "ted.09da28c7.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"dCgaW":[function(require,module,exports) {
@@ -29074,14 +29074,14 @@ module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "valora
 },{"./helpers/bundle-url":"lgJ39"}],"einl1":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "resume.42da34cb.jpg" + "?" + Date.now();
 
+},{"./helpers/bundle-url":"lgJ39"}],"7rBF9":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "gui-automation.9b0dcc5d.jpg" + "?" + Date.now();
+
 },{"./helpers/bundle-url":"lgJ39"}],"29ZI6":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "music.4ab5354d.jpg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"3ecTp":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "masked_face.75b10eca.jpg" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"7rBF9":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "gui-automation.9b0dcc5d.jpg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"iwRVc":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$dd7d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
@@ -29266,7 +29266,7 @@ $RefreshReg$(_c, "Services");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Services.css":"81s8Q","../images/services/vscode.png":"lYgUR","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/services/Excel.png":"32tes","../images/services/github-mark.png":"ehqDo","../images/services/python.png":"3tcFv","../images/services/PostgreSQL.png":"lFspD","../images/services/pandas_mark.png":"jazwe","../images/services/numpylogoicon.png":"7xuQu","../images/services/scikit-learn-logo.png":"ihgYK","../images/services/Selenium_Logo.png":"alb9n"}],"81s8Q":[function() {},{}],"lYgUR":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Services.css":"81s8Q","../images/services/vscode.png":"lYgUR","../images/services/Excel.png":"32tes","../images/services/github-mark.png":"ehqDo","../images/services/python.png":"3tcFv","../images/services/PostgreSQL.png":"lFspD","../images/services/pandas_mark.png":"jazwe","../images/services/numpylogoicon.png":"7xuQu","../images/services/scikit-learn-logo.png":"ihgYK","../images/services/Selenium_Logo.png":"alb9n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"81s8Q":[function() {},{}],"lYgUR":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "vscode.fe23b05a.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"32tes":[function(require,module,exports) {
