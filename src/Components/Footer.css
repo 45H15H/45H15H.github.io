@@ -25,6 +25,18 @@
   -webkit-tap-highlight-color: transparent;
 }
 
+.social-icons a {
+  cursor: url("../images/cursor/a.png"), auto;
+}
+
+.social-icons a:hover img {
+  filter: invert(100%);
+}
+
+.social-icons a img {
+  transition: filter 0.3s ease-in-out;
+}
+
 /* responsive styles */
 @media screen and (max-width: 600px) {
     .social-icons {
