@@ -28907,6 +28907,10 @@ var _musicJpg = require("../images/projects/music.jpg");
 var _musicJpgDefault = parcelHelpers.interopDefault(_musicJpg);
 var _maskedFaceJpg = require("../images/projects/masked_face.jpg");
 var _maskedFaceJpgDefault = parcelHelpers.interopDefault(_maskedFaceJpg);
+var _openaiLockupPng = require("../images/projects/openai-lockup.png");
+var _openaiLockupPngDefault = parcelHelpers.interopDefault(_openaiLockupPng);
+var _faceRecognitionPng = require("../images/projects/face-recognition.png");
+var _faceRecognitionPngDefault = parcelHelpers.interopDefault(_faceRecognitionPng);
 /**
  * Project list
  *
@@ -28948,6 +28952,18 @@ var _maskedFaceJpgDefault = parcelHelpers.interopDefault(_maskedFaceJpg);
         description: "Utilizing image recognition techniques to automatically detect and mask faces in images.",
         url: "https://github.com/45H15H/Privacy_protection",
         image: (0, _maskedFaceJpgDefault.default)
+    },
+    {
+        title: "ChatGPT Clone",
+        description: "A clone of the popular chatbot ChatGPT.",
+        url: "https://chatbotv1.streamlit.app/",
+        image: (0, _openaiLockupPngDefault.default)
+    },
+    {
+        title: "Face Recognition",
+        description: "A face recognition app that detects faces in images.",
+        url: "https://github.com/45H15H/face-recognition",
+        image: (0, _faceRecognitionPngDefault.default)
     }, 
 ];
 const Portfolio = ()=>{
@@ -28962,7 +28978,7 @@ const Portfolio = ()=>{
                 children: "Portfolio"
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 86,
+                lineNumber: 100,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28987,7 +29003,7 @@ const Portfolio = ()=>{
                                             alt: project.title
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 105,
+                                            lineNumber: 119,
                                             columnNumber: 19
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29002,7 +29018,7 @@ const Portfolio = ()=>{
                                                     children: project.title
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Portfolio.jsx",
-                                                    lineNumber: 107,
+                                                    lineNumber: 121,
                                                     columnNumber: 21
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -29013,45 +29029,45 @@ const Portfolio = ()=>{
                                                     children: project.description
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Portfolio.jsx",
-                                                    lineNumber: 110,
+                                                    lineNumber: 124,
                                                     columnNumber: 21
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 106,
+                                            lineNumber: 120,
                                             columnNumber: 19
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/Components/Portfolio.jsx",
-                                    lineNumber: 104,
+                                    lineNumber: 118,
                                     columnNumber: 17
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 103,
+                                lineNumber: 117,
                                 columnNumber: 15
                             }, undefined)
                         }, project.title, false, {
                             fileName: "src/Components/Portfolio.jsx",
-                            lineNumber: 102,
+                            lineNumber: 116,
                             columnNumber: 13
                         }, undefined))
                 }, void 0, false, {
                     fileName: "src/Components/Portfolio.jsx",
-                    lineNumber: 100,
+                    lineNumber: 114,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 87,
+                lineNumber: 101,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Portfolio.jsx",
-        lineNumber: 85,
+        lineNumber: 99,
         columnNumber: 5
     }, undefined);
 };
@@ -29065,7 +29081,7 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Portfolio.css":"a3pyr","../images/projects/ted.png":"anuuf","../images/projects/valorant.jpg":"dCgaW","../images/projects/resume.jpg":"einl1","../images/projects/gui-automation.jpg":"7rBF9","../images/projects/music.jpg":"29ZI6","../images/projects/masked_face.jpg":"3ecTp","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"a3pyr":[function() {},{}],"anuuf":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Portfolio.css":"a3pyr","../images/projects/ted.png":"anuuf","../images/projects/valorant.jpg":"dCgaW","../images/projects/resume.jpg":"einl1","../images/projects/gui-automation.jpg":"7rBF9","../images/projects/music.jpg":"29ZI6","../images/projects/masked_face.jpg":"3ecTp","../images/projects/openai-lockup.png":"yFzak","../images/projects/face-recognition.png":"jG0xW","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"a3pyr":[function() {},{}],"anuuf":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "ted.09da28c7.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"dCgaW":[function(require,module,exports) {
@@ -29082,6 +29098,12 @@ module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "music.
 
 },{"./helpers/bundle-url":"lgJ39"}],"3ecTp":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "masked_face.75b10eca.jpg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"yFzak":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "openai-lockup.6aab9441.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"jG0xW":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "face-recognition.b593a6a9.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"iwRVc":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$dd7d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
