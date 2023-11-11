@@ -50,6 +50,13 @@
     /* margin-top: 10px; */
     /* margin-bottom: 20px; */
     box-sizing: border-box;
+    cursor: url("../images/cursor/a.png"), auto;
+  }
+
+  .form-submit:hover {
+    box-shadow: 0 0 5px rgb(214, 104, 104);
+    border-color: rgb(214, 104, 104);
+    outline: rgb(171, 7, 7);
   }
 
   .form-container {
