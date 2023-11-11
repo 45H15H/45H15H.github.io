@@ -32,6 +32,11 @@
     border-radius: 0 0 10px 10px;
   }
   */
+
+  .box a {
+    cursor: url("../images/cursor/a.png"), auto;
+  }
+
   @media screen and (max-width: 600px) {
     .container {
     display: flex;
