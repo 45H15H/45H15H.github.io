@@ -32,6 +32,7 @@ import image_automation from "../images/projects/gui-automation.jpg";
 import image_lyrics from "../images/projects/music.jpg";
 import image_face from "../images/projects/masked_face.jpg";
 import image_chatbot from "../images/projects/openai-lockup.png";
+import image_face_recognition from "../images/projects/face-recognition.png";
 
 /**
  * Project list
@@ -84,6 +85,12 @@ const projectList = [
     description: "A clone of the popular chatbot ChatGPT.",
     url: "https://chatbotv1.streamlit.app/",
     image: image_chatbot,
+  },
+  {
+    title: "Face Recognition",
+    description: "A face recognition app that detects faces in images.",
+    url: "https://github.com/45H15H/face-recognition",
+    image: image_face_recognition,
   },
 ];
 
