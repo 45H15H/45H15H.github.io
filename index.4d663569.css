@@ -263,6 +263,41 @@ img.socialIcon {
   background-color: #e3e3e5;
 }
 
+#loading-screen {
+  cursor: auto;
+  transition: opacity 1s;
+  overflow: hidden;
+}
+
+.spinner-box {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.three-quarter-spinner {
+  width: 50px;
+  height: 50px;
+  border: 3px solid #ab0707;
+  border-top-color: #0000;
+  border-radius: 50%;
+  animation: spin .6s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
 .about-container {
   width: 50%;
   text-align: center;
