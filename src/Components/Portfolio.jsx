@@ -32,6 +32,7 @@ import image_automation from "../images/projects/gui-automation.jpg";
 import image_lyrics from "../images/projects/music.jpg";
 import image_face from "../images/projects/masked_face.jpg";
 import image_chatbot from "../images/projects/openai-lockup.png";
+import image_mm from "../images/projects/openai-lockup.png";
 import image_face_recognition from "../images/projects/face-recognition.png";
 
 /**
@@ -56,10 +57,10 @@ const projectList = [
     image: image_valorant,
   },
   {
-    title: "My Resume Site",
-    description: "Includes my experience, professional background, skills, and accomplishments.",
-    url: "https://45h15h.github.io/resume/",
-    image: image_resume,
+    title: "Meeting Minutes Generator",
+    description: "A simple web app that generates meeting minutes using OpenAI's GPT-3 and TTS API.",
+    url: "https://meeting-minutes-v1.streamlit.app/",
+    image: image_mm,
   },
   {
     title: "Doja Cat Lyrics Dataset",
@@ -88,7 +89,7 @@ const projectList = [
   },
   {
     title: "Face Recognition",
-    description: "A face recognition app that detects faces in images.",
+    description: "A face recognition app that recognizes faces in images.",
     url: "https://github.com/45H15H/face-recognition",
     image: image_face_recognition,
   },
