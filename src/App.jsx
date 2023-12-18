@@ -18,7 +18,7 @@ import GetInTouch from "./Components/GetInTouch";
 
 /**
  * This object represents your information. The project is set so that you
- * only need to update these here, and values are passed a properties to the
+ * only need to update these here, and values are passed as properties to the
  * components that need that information.
  *
  * Update the values below with your information.
@@ -27,7 +27,7 @@ import GetInTouch from "./Components/GetInTouch";
  */
 const siteProps = {
   name: "Ashish Singh",
-  title: "Data Analyst Associate",
+  title: "Aspiring Data Scientist",
   email: "gm.ashishsingh@gmail.com",
   gitHub: "45H15H",
   instagram: "ashishsin9h159",
