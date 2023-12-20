@@ -10,6 +10,8 @@ import pandas from "../images/services/pandas_mark.png";
 import numpy from "../images/services/numpylogoicon.png";
 import scikit from "../images/services/scikit-learn-logo.png";
 import selenium from "../images/services/Selenium_Logo.png";
+import streamlit from "../images/services/streamlit-mark-color.png";
+import powerbi from "../images/services/Microsoft-Power-BI-Logo.png";
 
 const serviceList = [
   {
@@ -56,7 +58,17 @@ const serviceList = [
     title: "Selenium",
     description: "Skilled in Selenium for browser automation and web scraping tasks",
     image: selenium,
-  }
+  },
+  {
+    title: "Streamlit",
+    description: "Familiar with Streamlit for building interactive web apps with Python",
+    image: streamlit,
+  },
+  {
+    title: "Power BI",
+    description: " with Power BI for data visualization and business intelligence",
+    image: powerbi,
+  },
 ];
 
 const Services = () => {
