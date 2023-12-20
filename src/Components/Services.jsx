@@ -66,7 +66,7 @@ const serviceList = [
   },
   {
     title: "Power BI",
-    description: " with Power BI for data visualization and business intelligence",
+    description: "Familiar with Power BI for data visualization and business intelligence",
     image: powerbi,
   },
 ];
