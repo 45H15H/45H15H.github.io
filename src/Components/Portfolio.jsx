@@ -34,6 +34,7 @@ import image_face from "../images/projects/masked_face.jpg";
 import image_chatbot from "../images/projects/openai-lockup.png";
 import image_mm from "../images/projects/openai-lockup.png";
 import image_face_recognition from "../images/projects/face-recognition.png";
+import image_lppa from "../images/projects/Gemini.png";
 
 /**
  * Project list
@@ -82,10 +83,10 @@ const projectList = [
     image: image_face,
   },
   {
-    title: "ChatGPT Clone",
-    description: "A clone of the popular chatbot ChatGPT.",
-    url: "https://chatbotv1.streamlit.app/",
-    image: image_chatbot,
+    title: "LinkedIn Profile Picture Analyzer",
+    description: "A simple web app that analyzes your LinkedIn profile picture using Google's Gemini.",
+    url: "https://linkedin-profile-picture-analyzer.streamlit.app/",
+    image: image_lppa,
   },
   {
     title: "Face Recognition",
