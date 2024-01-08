@@ -12,7 +12,7 @@ import scikit from "../images/services/scikit-learn-logo.png";
 import selenium from "../images/services/Selenium_Logo.png";
 import streamlit from "../images/services/streamlit-mark-color.png";
 import powerbi from "../images/services/Microsoft-Power-BI-Logo.png";
-import jupyter from "../images/services/squarelogo-greytext-orangebody-greymoons.png"
+import jupyter from "../images/services/squarelogo-greytext-orangebody-greymoons.png";
 
 const serviceList = [
   {
@@ -73,8 +73,8 @@ const serviceList = [
   {
     title: "Jupyter Notebooks",
     description: "Proficient in Jupyter Notebooks for EDA, exploration, and visualization",
-    image: jupyter,   
-  }
+    image: jupyter,
+  },
 ];
 
 const Services = () => {
