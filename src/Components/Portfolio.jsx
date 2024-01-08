@@ -28,12 +28,12 @@ import "./Portfolio.css";
 import image_ted from "../images/projects/ted.png";
 import image_valorant from "../images/projects/valorant.jpg";
 import image_resume from "../images/projects/resume.jpg";
-import image_automation from "../images/projects/gui-automation.jpg";
+import image_automation from "../images/projects/gui_automation.jpeg";
 import image_lyrics from "../images/projects/music.jpg";
 import image_face from "../images/projects/masked_face.jpg";
 import image_chatbot from "../images/projects/openai-lockup.png";
 import image_mm from "../images/projects/openai-lockup.png";
-import image_face_recognition from "../images/projects/face-recognition.png";
+import image_face_recognition from "../images/projects/face-recognition.jpeg";
 import image_lppa from "../images/projects/Gemini.png";
 
 /**
