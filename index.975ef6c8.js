@@ -27084,7 +27084,7 @@ var _getInTouch = require("./Components/GetInTouch");
 var _getInTouchDefault = parcelHelpers.interopDefault(_getInTouch);
 /**
  * This object represents your information. The project is set so that you
- * only need to update these here, and values are passed a properties to the
+ * only need to update these here, and values are passed as properties to the
  * components that need that information.
  *
  * Update the values below with your information.
@@ -27092,7 +27092,7 @@ var _getInTouchDefault = parcelHelpers.interopDefault(_getInTouch);
  * If you don't have one of the social sites listed, leave it as an empty string.
  */ const siteProps = {
     name: "Ashish Singh",
-    title: "Data Analyst Associate",
+    title: "Aspiring Data Scientist",
     email: "gm.ashishsingh@gmail.com",
     gitHub: "45H15H",
     instagram: "ashishsin9h159",
@@ -28901,16 +28901,18 @@ var _valorantJpg = require("../images/projects/valorant.jpg");
 var _valorantJpgDefault = parcelHelpers.interopDefault(_valorantJpg);
 var _resumeJpg = require("../images/projects/resume.jpg");
 var _resumeJpgDefault = parcelHelpers.interopDefault(_resumeJpg);
-var _guiAutomationJpg = require("../images/projects/gui-automation.jpg");
-var _guiAutomationJpgDefault = parcelHelpers.interopDefault(_guiAutomationJpg);
+var _guiAutomationJpeg = require("../images/projects/gui_automation.jpeg");
+var _guiAutomationJpegDefault = parcelHelpers.interopDefault(_guiAutomationJpeg);
 var _musicJpg = require("../images/projects/music.jpg");
 var _musicJpgDefault = parcelHelpers.interopDefault(_musicJpg);
 var _maskedFaceJpg = require("../images/projects/masked_face.jpg");
 var _maskedFaceJpgDefault = parcelHelpers.interopDefault(_maskedFaceJpg);
 var _openaiLockupPng = require("../images/projects/openai-lockup.png");
 var _openaiLockupPngDefault = parcelHelpers.interopDefault(_openaiLockupPng);
-var _faceRecognitionPng = require("../images/projects/face-recognition.png");
-var _faceRecognitionPngDefault = parcelHelpers.interopDefault(_faceRecognitionPng);
+var _faceRecognitionJpeg = require("../images/projects/face-recognition.jpeg");
+var _faceRecognitionJpegDefault = parcelHelpers.interopDefault(_faceRecognitionJpeg);
+var _geminiPng = require("../images/projects/Gemini.png");
+var _geminiPngDefault = parcelHelpers.interopDefault(_geminiPng);
 /**
  * Project list
  *
@@ -28930,10 +28932,10 @@ var _faceRecognitionPngDefault = parcelHelpers.interopDefault(_faceRecognitionPn
         image: (0, _valorantJpgDefault.default)
     },
     {
-        title: "My Resume Site",
-        description: "Includes my experience, professional background, skills, and accomplishments.",
-        url: "https://45h15h.github.io/resume/",
-        image: (0, _resumeJpgDefault.default)
+        title: "Meeting Minutes Generator",
+        description: "A simple web app that generates meeting minutes using OpenAI's GPT-3 and TTS API.",
+        url: "https://meeting-minutes-v1.streamlit.app/",
+        image: (0, _openaiLockupPngDefault.default)
     },
     {
         title: "Doja Cat Lyrics Dataset",
@@ -28945,7 +28947,7 @@ var _faceRecognitionPngDefault = parcelHelpers.interopDefault(_faceRecognitionPn
         title: "GUI Automation Showcase",
         description: "A collection of practical GUI automation projects.",
         url: "https://github.com/45H15H/GUI-Automation/",
-        image: (0, _guiAutomationJpgDefault.default)
+        image: (0, _guiAutomationJpegDefault.default)
     },
     {
         title: "Image Anonymizer",
@@ -28954,16 +28956,16 @@ var _faceRecognitionPngDefault = parcelHelpers.interopDefault(_faceRecognitionPn
         image: (0, _maskedFaceJpgDefault.default)
     },
     {
-        title: "ChatGPT Clone",
-        description: "A clone of the popular chatbot ChatGPT.",
-        url: "https://chatbotv1.streamlit.app/",
-        image: (0, _openaiLockupPngDefault.default)
+        title: "LinkedIn Profile Picture Analyzer",
+        description: "A simple web app that analyzes your LinkedIn profile picture using Google's Gemini.",
+        url: "https://linkedin-profile-picture-analyzer.streamlit.app/",
+        image: (0, _geminiPngDefault.default)
     },
     {
         title: "Face Recognition",
-        description: "A face recognition app that detects faces in images.",
+        description: "A face recognition app that recognizes faces in images.",
         url: "https://github.com/45H15H/face-recognition",
-        image: (0, _faceRecognitionPngDefault.default)
+        image: (0, _faceRecognitionJpegDefault.default)
     }, 
 ];
 const Portfolio = ()=>{
@@ -28978,7 +28980,7 @@ const Portfolio = ()=>{
                 children: "Portfolio"
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 100,
+                lineNumber: 102,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29003,7 +29005,7 @@ const Portfolio = ()=>{
                                             alt: project.title
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 119,
+                                            lineNumber: 121,
                                             columnNumber: 19
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29018,7 +29020,7 @@ const Portfolio = ()=>{
                                                     children: project.title
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Portfolio.jsx",
-                                                    lineNumber: 121,
+                                                    lineNumber: 123,
                                                     columnNumber: 21
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -29029,45 +29031,45 @@ const Portfolio = ()=>{
                                                     children: project.description
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Portfolio.jsx",
-                                                    lineNumber: 124,
+                                                    lineNumber: 126,
                                                     columnNumber: 21
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 120,
+                                            lineNumber: 122,
                                             columnNumber: 19
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/Components/Portfolio.jsx",
-                                    lineNumber: 118,
+                                    lineNumber: 120,
                                     columnNumber: 17
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 117,
+                                lineNumber: 119,
                                 columnNumber: 15
                             }, undefined)
                         }, project.title, false, {
                             fileName: "src/Components/Portfolio.jsx",
-                            lineNumber: 116,
+                            lineNumber: 118,
                             columnNumber: 13
                         }, undefined))
                 }, void 0, false, {
                     fileName: "src/Components/Portfolio.jsx",
-                    lineNumber: 114,
+                    lineNumber: 116,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 101,
+                lineNumber: 103,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Portfolio.jsx",
-        lineNumber: 99,
+        lineNumber: 101,
         columnNumber: 5
     }, undefined);
 };
@@ -29081,7 +29083,7 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Portfolio.css":"a3pyr","../images/projects/ted.png":"anuuf","../images/projects/valorant.jpg":"dCgaW","../images/projects/resume.jpg":"einl1","../images/projects/gui-automation.jpg":"7rBF9","../images/projects/music.jpg":"29ZI6","../images/projects/masked_face.jpg":"3ecTp","../images/projects/openai-lockup.png":"yFzak","../images/projects/face-recognition.png":"jG0xW","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"a3pyr":[function() {},{}],"anuuf":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Portfolio.css":"a3pyr","../images/projects/ted.png":"anuuf","../images/projects/valorant.jpg":"dCgaW","../images/projects/resume.jpg":"einl1","../images/projects/music.jpg":"29ZI6","../images/projects/masked_face.jpg":"3ecTp","../images/projects/openai-lockup.png":"yFzak","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/projects/gui_automation.jpeg":"bPRHD","../images/projects/face-recognition.jpeg":"hzB42","../images/projects/Gemini.png":"erSJC"}],"a3pyr":[function() {},{}],"anuuf":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "ted.09da28c7.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"dCgaW":[function(require,module,exports) {
@@ -29089,9 +29091,6 @@ module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "valora
 
 },{"./helpers/bundle-url":"lgJ39"}],"einl1":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "resume.42da34cb.jpg" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"7rBF9":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "gui-automation.9b0dcc5d.jpg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"29ZI6":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "music.4ab5354d.jpg" + "?" + Date.now();
@@ -29102,8 +29101,14 @@ module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "masked
 },{"./helpers/bundle-url":"lgJ39"}],"yFzak":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "openai-lockup.6aab9441.png" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"jG0xW":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "face-recognition.b593a6a9.png" + "?" + Date.now();
+},{"./helpers/bundle-url":"lgJ39"}],"bPRHD":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "gui_automation.31b1564f.jpeg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"hzB42":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "face-recognition.85903760.jpeg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"erSJC":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "Gemini.27b508f9.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"iwRVc":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$dd7d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
@@ -29136,6 +29141,12 @@ var _scikitLearnLogoPng = require("../images/services/scikit-learn-logo.png");
 var _scikitLearnLogoPngDefault = parcelHelpers.interopDefault(_scikitLearnLogoPng);
 var _seleniumLogoPng = require("../images/services/Selenium_Logo.png");
 var _seleniumLogoPngDefault = parcelHelpers.interopDefault(_seleniumLogoPng);
+var _streamlitMarkColorPng = require("../images/services/streamlit-mark-color.png");
+var _streamlitMarkColorPngDefault = parcelHelpers.interopDefault(_streamlitMarkColorPng);
+var _microsoftPowerBILogoPng = require("../images/services/Microsoft-Power-BI-Logo.png");
+var _microsoftPowerBILogoPngDefault = parcelHelpers.interopDefault(_microsoftPowerBILogoPng);
+var _squarelogoGreytextOrangebodyGreymoonsPng = require("../images/services/squarelogo-greytext-orangebody-greymoons.png");
+var _squarelogoGreytextOrangebodyGreymoonsPngDefault = parcelHelpers.interopDefault(_squarelogoGreytextOrangebodyGreymoonsPng);
 const serviceList = [
     {
         title: "Visual Studio Code",
@@ -29181,7 +29192,22 @@ const serviceList = [
         title: "Selenium",
         description: "Skilled in Selenium for browser automation and web scraping tasks",
         image: (0, _seleniumLogoPngDefault.default)
-    }
+    },
+    {
+        title: "Streamlit",
+        description: "Familiar with Streamlit for building interactive web apps with Python",
+        image: (0, _streamlitMarkColorPngDefault.default)
+    },
+    {
+        title: "Power BI",
+        description: "Familiar with Power BI for data visualization and business intelligence",
+        image: (0, _microsoftPowerBILogoPngDefault.default)
+    },
+    {
+        title: "Jupyter Notebooks",
+        description: "Proficient in Jupyter Notebooks for EDA, exploration, and visualization",
+        image: (0, _squarelogoGreytextOrangebodyGreymoonsPngDefault.default)
+    }, 
 ];
 const Services = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
@@ -29195,7 +29221,7 @@ const Services = ()=>{
                 children: "Technologies I use"
             }, void 0, false, {
                 fileName: "src/Components/Services.jsx",
-                lineNumber: 65,
+                lineNumber: 83,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29219,7 +29245,7 @@ const Services = ()=>{
                                             alt: "vscode"
                                         }, void 0, false, {
                                             fileName: "src/Components/Services.jsx",
-                                            lineNumber: 72,
+                                            lineNumber: 90,
                                             columnNumber: 19
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29229,52 +29255,52 @@ const Services = ()=>{
                                                     children: service.title
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Services.jsx",
-                                                    lineNumber: 74,
+                                                    lineNumber: 92,
                                                     columnNumber: 21
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                                     children: service.description
                                                 }, void 0, false, {
                                                     fileName: "src/Components/Services.jsx",
-                                                    lineNumber: 75,
+                                                    lineNumber: 93,
                                                     columnNumber: 21
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/Components/Services.jsx",
-                                            lineNumber: 73,
+                                            lineNumber: 91,
                                             columnNumber: 19
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/Components/Services.jsx",
-                                    lineNumber: 71,
+                                    lineNumber: 89,
                                     columnNumber: 17
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/Components/Services.jsx",
-                                lineNumber: 70,
+                                lineNumber: 88,
                                 columnNumber: 15
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/Components/Services.jsx",
-                            lineNumber: 69,
+                            lineNumber: 87,
                             columnNumber: 13
                         }, undefined))
                 }, void 0, false, {
                     fileName: "src/Components/Services.jsx",
-                    lineNumber: 67,
+                    lineNumber: 85,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Services.jsx",
-                lineNumber: 66,
+                lineNumber: 84,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Services.jsx",
-        lineNumber: 64,
+        lineNumber: 82,
         columnNumber: 5
     }, undefined);
 };
@@ -29288,7 +29314,7 @@ $RefreshReg$(_c, "Services");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Services.css":"81s8Q","../images/services/vscode.png":"lYgUR","../images/services/Excel.png":"32tes","../images/services/github-mark.png":"ehqDo","../images/services/python.png":"3tcFv","../images/services/PostgreSQL.png":"lFspD","../images/services/pandas_mark.png":"jazwe","../images/services/numpylogoicon.png":"7xuQu","../images/services/scikit-learn-logo.png":"ihgYK","../images/services/Selenium_Logo.png":"alb9n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"81s8Q":[function() {},{}],"lYgUR":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Services.css":"81s8Q","../images/services/vscode.png":"lYgUR","../images/services/Excel.png":"32tes","../images/services/github-mark.png":"ehqDo","../images/services/python.png":"3tcFv","../images/services/PostgreSQL.png":"lFspD","../images/services/pandas_mark.png":"jazwe","../images/services/numpylogoicon.png":"7xuQu","../images/services/scikit-learn-logo.png":"ihgYK","../images/services/Selenium_Logo.png":"alb9n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/services/streamlit-mark-color.png":"5bZCa","../images/services/Microsoft-Power-BI-Logo.png":"bH9Ck","../images/services/squarelogo-greytext-orangebody-greymoons.png":"8alEQ"}],"81s8Q":[function() {},{}],"lYgUR":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "vscode.fe23b05a.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"32tes":[function(require,module,exports) {
@@ -29314,6 +29340,15 @@ module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "scikit
 
 },{"./helpers/bundle-url":"lgJ39"}],"alb9n":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "Selenium_Logo.424b9d48.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"5bZCa":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "streamlit-mark-color.d0e79ef6.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"bH9Ck":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "Microsoft-Power-BI-Logo.51e3270c.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"8alEQ":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "squarelogo-greytext-orangebody-greymoons.7c52e016.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lW6qc":[function() {},{}],"hqLjq":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$2eaf = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
