@@ -81,7 +81,7 @@ const Services = () => {
   return (
     <section className="padding" id="services">
       <h2 style={{ textAlign: "center" }}>Technologies I use</h2>
-      <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
+      <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem", maskImage: "linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 25%, rgb(0, 0, 0) 75%, rgba(0, 0, 0, 0) 100%)" }}>
         <div className="service-container">
           {serviceList.map((service) => (
             <div className="row-service-wrap">
@@ -91,9 +91,9 @@ const Services = () => {
                   <div className="service-content">
                     <h3>{service.title}</h3>
                     <p>{service.description}</p>
-                   </div>
-                 </div>
+                  </div>
                 </div>
+              </div>
             </div>
           ))}
         </div>

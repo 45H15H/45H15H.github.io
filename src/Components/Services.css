@@ -12,12 +12,27 @@
   }
 
   .service-container {
-    display: grid;
+    display: flex;
+    /* width: 120%; */
+    /* position: absolute; */
+    /* overflow: hidden; */
     grid-gap: 50px;
-    grid-template-columns: 300px 300px 300px ;
     margin: 20px auto;
+    animation: marquee 10s linear infinite;
+    /* float : left; */
   }
   
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+      /* left: 0%; */
+    }
+    100% {
+      transform: translateX(-100%);
+      /* left: -100%; */
+    }
+  }
+
   .service-card {
     width: calc(33.333333% - 10px);
     margin-bottom: 0px;
