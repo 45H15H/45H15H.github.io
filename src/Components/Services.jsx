@@ -96,6 +96,19 @@ const Services = () => {
               </div>
             </div>
           ))}
+          {serviceList.map((service) => (
+            <div className="row-service-wrap">
+              <div className="service-card">
+                <div className="service-box">
+                  <img className="service-img" src={service.image} alt="vscode" />
+                  <div className="service-content">
+                    <h3>{service.title}</h3>
+                    <p>{service.description}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </section>

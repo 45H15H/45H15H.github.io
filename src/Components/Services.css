@@ -13,23 +13,27 @@
 
   .service-container {
     display: flex;
-    /* width: 120%; */
+    /* flex-wrap: wrap; */
+    width: max-content;
     /* position: absolute; */
     /* overflow: hidden; */
     grid-gap: 50px;
     margin: 20px auto;
     animation: marquee 10s linear infinite;
-    /* float : left; */
+    will-change: transform;
+    float : left;
   }
   
   @keyframes marquee {
     0% {
-      transform: translateX(100%);
+      transform: translateX(0);
+      /* transform: translateX(0px); */
       /* left: 0%; */
     }
     100% {
-      transform: translateX(-100%);
+      transform: translateX(-50%);
       /* left: -100%; */
+      /* transform: translateX(calc(1000px * 12)); */
     }
   }
 
