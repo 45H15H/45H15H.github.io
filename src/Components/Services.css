@@ -15,9 +15,11 @@
     display: flex;
     /* flex-wrap: wrap; */
     width: max-content;
+    /* width: calc((215px + 50px) * 24); */
     /* position: absolute; */
     /* overflow: hidden; */
-    grid-gap: 50px;
+    gap: 50px;
+    /* justify-content: space-between; */
     margin: 20px auto;
     animation: marquee 10s linear infinite;
     will-change: transform;
@@ -31,16 +33,17 @@
       /* left: 0%; */
     }
     100% {
-      transform: translateX(-50%);
+      /* transform: translateX(-50%); */
       /* left: -100%; */
-      /* transform: translateX(calc(1000px * 12)); */
+      transform: translateX(calc(-1 * (255px + 50px) * 12));
     }
   }
 
   .service-card {
-    width: calc(33.333333% - 10px);
+    /* width: calc(33.333333% - 10px); */
+    width: 255px;
     margin-bottom: 0px;
-    display: block;
+    /* display: block; */
   }
 
   .service-box:hover {
