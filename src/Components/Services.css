@@ -1,49 +1,52 @@
 .row-service-wrap {
     position: relative;
-    /* width: 100%; */
-    /* display: flex; */
-    /* flex-wrap: wrap; */
     justify-content: center;
     max-width: 100%;
-    /* flex: 0 0 33.333333%; */
-    /* padding: 15px; */
-    /* box-sizing: border-box; */
     margin: 0 auto;
   }
 
   .service-container {
     display: flex;
-    /* flex-wrap: wrap; */
     width: max-content;
-    /* width: calc((215px + 50px) * 24); */
-    /* position: absolute; */
-    /* overflow: hidden; */
-    gap: 50px;
-    /* justify-content: space-between; */
+    gap: 20px;
     margin: 20px auto;
-    animation: marquee 10s linear infinite;
+    animation: marquee 11s linear infinite;
     will-change: transform;
     float : left;
+  }
+
+  .service-container-2 {
+    display: flex;
+    width: max-content;
+    gap: 20px;
+    margin: 20px auto;
+    animation: marquee-2 11s linear infinite;
+    will-change: transform;
+    float : left;
+    margin-top: -2rem;
   }
   
   @keyframes marquee {
     0% {
       transform: translateX(0);
-      /* transform: translateX(0px); */
-      /* left: 0%; */
     }
     100% {
-      /* transform: translateX(-50%); */
-      /* left: -100%; */
-      transform: translateX(calc(-1 * (255px + 50px) * 12));
+      transform: translateX(calc(-1 * (255px + 20px) * 6));
+    }
+  }
+
+  @keyframes marquee-2 {
+    0% {
+      transform: translateX(calc(-1 * (255px + 20px) * 6));
+    }
+    100% {
+      transform: translateX(0);
     }
   }
 
   .service-card {
-    /* width: calc(33.333333% - 10px); */
     width: 255px;
     margin-bottom: 0px;
-    /* display: block; */
   }
 
   .service-box:hover {
@@ -51,8 +54,8 @@
   }
   
   .service-box {
-    width: 215px;
-    height: 215px;
+    width: 180px;
+    height: 180px;
     display: flex;
     flex-direction: column;
     padding: 30px;
@@ -62,13 +65,12 @@
   }
   
   .service-content {
-    /* text-align: center; */
     height: 100px;
     
   }
   
   .service-content h3 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-bottom: 10px;
     vertical-align: baseline;
     border: 0;
@@ -77,12 +79,10 @@
     font-family: "Poppins", sans-serif;
     color: #333;
     letter-spacing: 1px;
-    /* margin: 0 0 5px; */
   }
   
   .service-content p {
-    /* font-size: 1.2rem; */
-    font-size: 90%;
+    font-size: 80%;
     line-height: 1.5;
     vertical-align: baseline;
     font-weight: 500;
@@ -109,28 +109,70 @@
 
   @media screen and (max-width: 600px) {
     .service-container {
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    width: calc((120px + 2px) * 12);
     margin-top: 0px;
+    gap: 2px;
+    animation: marquee_small 6s linear infinite;
+    }
+
+    .service-container-2 {
+      width: calc((120px + 2px) * 12);
+      margin-top: 0px;
+      gap: 2px;
+      animation: marquee_small-2 6s linear infinite;
+      margin-top: -4rem;
+      }
+
+    @keyframes marquee_small {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(calc(-1 * (120px + 2px) * 6));
+      }
+    }
+
+    @keyframes marquee_small-2 {
+      0% {
+        transform: translateX(calc(-1 * (120px + 2px) * 6));
+      }
+      100% {
+        transform: translateX(0);
+      }
+      
+    }
+
+    .service-card {
+      width: 120px;
     }
 
     .service-box {
       margin-bottom: -20px;
+      height: 90px;
+      width: 90px;
+      background-color: transparent;
+      box-shadow: none;
+    }
+
+    .service-box:hover {
+      background-color: transparent;
+    }
+
+    .service-content {
+      display: none;
     }
   }
 
   @media screen and (min-width: 768px) and (max-width: 1024px){
     .service-container {
-    display: grid;
-    grid-gap: 50px;
-    grid-template-columns: 300px 300px;
-    margin: 20px auto;
-    }
+      margin-top: 0px;
+      }
+    
+      .service-container-2 {
+        margin-top: 0px;
+      }
 
-    .service-box {
-      margin-bottom: -20px;
-    }
+      .service-box {
+        margin-bottom: -20px;
+      }  
   }
