@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "http://45H15H.github.io",
+  "homepage": "http://ashishs.tech",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
