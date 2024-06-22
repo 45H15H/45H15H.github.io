@@ -9,7 +9,7 @@
     "build": "parcel build",
     "build-gh": "parcel build --public-url 'https://45H15H.github.io'",
     "predeploy": "npm run build-gh",
-    "deploy": "gh-pages -d dist"
+    "deploy": "npm run build&&gh-pages -d build"
   },
   "repository": {
     "type": "git",
