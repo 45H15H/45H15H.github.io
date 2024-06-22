@@ -27757,7 +27757,7 @@ $RefreshReg$(_c, "Footer");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"7wKI2","./Footer.css":"gG5u2","../images/socials/devdotto.svg":"69cpV","../images/socials/envelope.svg":"92UhI","../images/socials/github.svg":"vP2m6","../images/socials/instagram.svg":"jH0VA","../images/socials/linkedin.svg":"5XSmz","../images/socials/medium.svg":"cDDa0","../images/socials/twitter.svg":"flM6L","../images/socials/youtube.svg":"hmN7D","../images/socials/kaggle.svg":"98LPe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7wKI2":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"7wKI2","./Footer.css":"gG5u2","../images/socials/devdotto.svg":"69cpV","../images/socials/envelope.svg":"92UhI","../images/socials/github.svg":"vP2m6","../images/socials/instagram.svg":"jH0VA","../images/socials/linkedin.svg":"5XSmz","../images/socials/medium.svg":"cDDa0","../images/socials/twitter.svg":"flM6L","../images/socials/youtube.svg":"hmN7D","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/socials/kaggle.svg":"98LPe"}],"7wKI2":[function(require,module,exports) {
 var ReactIs = require("react-is");
 // By explicitly using `prop-types` you are opting into new development behavior.
 // http://fb.me/prop-types-in-prod
@@ -28857,7 +28857,7 @@ $RefreshReg$(_c, "Home");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","./Home.css":"cnisp","../images/blood-ffffff-bg.webp":"i9zEg","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"b5nCi":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","./Home.css":"cnisp","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/blood-ffffff-bg.webp":"i9zEg"}],"b5nCi":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "down-arrow.1037091f.svg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"cnisp":[function() {},{}],"i9zEg":[function(require,module,exports) {
@@ -29083,17 +29083,11 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Portfolio.css":"a3pyr","../images/projects/ted.png":"anuuf","../images/projects/valorant.jpg":"dCgaW","../images/projects/resume.jpg":"einl1","../images/projects/gui_automation.jpg":"8n4nH","../images/projects/music.jpg":"29ZI6","../images/projects/masked_face.jpg":"3ecTp","../images/projects/openai-lockup.png":"yFzak","../images/projects/face-recognition.jpg":"e6B3Q","../images/projects/Gemini.png":"erSJC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"a3pyr":[function() {},{}],"anuuf":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Portfolio.css":"a3pyr","../images/projects/ted.png":"anuuf","../images/projects/resume.jpg":"einl1","../images/projects/music.jpg":"29ZI6","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/projects/masked_face.jpg":"3ecTp","../images/projects/openai-lockup.png":"yFzak","../images/projects/Gemini.png":"erSJC","../images/projects/gui_automation.jpg":"8n4nH","../images/projects/face-recognition.jpg":"e6B3Q","../images/projects/valorant.jpg":"dCgaW"}],"a3pyr":[function() {},{}],"anuuf":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "ted.09da28c7.png" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"dCgaW":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "valorant.d76ac0c6.jpg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"einl1":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "resume.42da34cb.jpg" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"8n4nH":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "gui_automation.1c856ee0.jpg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"29ZI6":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "music.4ab5354d.jpg" + "?" + Date.now();
@@ -29104,11 +29098,17 @@ module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "masked
 },{"./helpers/bundle-url":"lgJ39"}],"yFzak":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "openai-lockup.6aab9441.png" + "?" + Date.now();
 
+},{"./helpers/bundle-url":"lgJ39"}],"erSJC":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "Gemini.27b508f9.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"8n4nH":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "gui_automation.1c856ee0.jpg" + "?" + Date.now();
+
 },{"./helpers/bundle-url":"lgJ39"}],"e6B3Q":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "face-recognition.d7d0f83d.jpg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"erSJC":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "Gemini.27b508f9.png" + "?" + Date.now();
+},{"./helpers/bundle-url":"lgJ39"}],"dCgaW":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "valorant.d76ac0c6.jpg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"iwRVc":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$dd7d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
@@ -29503,7 +29503,7 @@ $RefreshReg$(_c, "Services");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Services.css":"81s8Q","../images/services/vscode.png":"lYgUR","../images/services/Excel.png":"32tes","../images/services/github-mark.png":"ehqDo","../images/services/python.png":"3tcFv","../images/services/PostgreSQL.png":"lFspD","../images/services/pandas_mark.png":"jazwe","../images/services/numpylogoicon.png":"7xuQu","../images/services/scikit-learn-logo.png":"ihgYK","../images/services/Selenium_Logo.png":"alb9n","../images/services/streamlit-mark-color.png":"5bZCa","../images/services/Microsoft-Power-BI-Logo.png":"bH9Ck","../images/services/squarelogo-greytext-orangebody-greymoons.png":"8alEQ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"81s8Q":[function() {},{}],"lYgUR":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Services.css":"81s8Q","../images/services/vscode.png":"lYgUR","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/services/Excel.png":"32tes","../images/services/github-mark.png":"ehqDo","../images/services/python.png":"3tcFv","../images/services/PostgreSQL.png":"lFspD","../images/services/pandas_mark.png":"jazwe","../images/services/numpylogoicon.png":"7xuQu","../images/services/scikit-learn-logo.png":"ihgYK","../images/services/Selenium_Logo.png":"alb9n","../images/services/streamlit-mark-color.png":"5bZCa","../images/services/Microsoft-Power-BI-Logo.png":"bH9Ck","../images/services/squarelogo-greytext-orangebody-greymoons.png":"8alEQ"}],"81s8Q":[function() {},{}],"lYgUR":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "vscode.fe23b05a.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"32tes":[function(require,module,exports) {
