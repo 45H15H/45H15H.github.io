@@ -26,7 +26,7 @@ const imageAltText = "white keyboard along with a notebook";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a student at the National Institute of Technology Goa. I have a strong passion for learning and constantly seeking new knowledge. As a self-taught Data Analyst, I am fascinated by the power of data and its potential to drive meaningful insights.";
+  "I'm not a student at the National Institute of Technology Goa. I have a strong passion for learning and constantly seeking new knowledge. As a self-taught Data Analyst, I am fascinated by the power of data and its potential to drive meaningful insights.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
