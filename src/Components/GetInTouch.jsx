@@ -34,7 +34,7 @@ const GetInTouch = () => {
       <h2 style={{ textAlign: "center" }}>Get in touch</h2>
       {formSubmitted ? (
         <div className="form-group">
-        <form className="form-container" action="https://send.pageclip.co/qjXjt70pwLCBUJWDAwjpNY7cI4ihPqoV" method="POST" onSubmit={handleSubmit}>
+        <form className="form-container" action="https://send.pageclip.co/qjXjt70pwLCBUJWDAwjpNY7cI4ihPqoV/portfolio" method="POST" onSubmit={handleSubmit}>
           <div className="form-row">
             <label htmlFor="name" className="form-label">
               Name <span className="form-required">*</span>
@@ -70,7 +70,7 @@ const GetInTouch = () => {
       </div>
       ) : (
         <div className="form-group">
-          <form className="form-container" action="https://send.pageclip.co/qjXjt70pwLCBUJWDAwjpNY7cI4ihPqoV" method="POST" onSubmit={handleSubmit}>
+          <form className="form-container" action="https://send.pageclip.co/qjXjt70pwLCBUJWDAwjpNY7cI4ihPqoV/portfolio" method="POST" onSubmit={handleSubmit}>
             <div className="form-row">
               <label htmlFor="name" className="form-label">
                 Name <span className="form-required">*</span>
