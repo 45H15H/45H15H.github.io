@@ -41,7 +41,7 @@ const GetInTouch = () => {
             </label>
           </div>
           <div className="form-row-input">
-            <input type="text" id="name" name="name" value={name} onChange={(event) => setName(event.target.value)} className="form-input" required />
+            <input type="text" id="name" name="name" autoComplete="given-name" value={name} onChange={(event) => setName(event.target.value)} className="form-input" required />
           </div>
           <div className="form-row">
             <label htmlFor="email" className="form-label">
@@ -49,7 +49,7 @@ const GetInTouch = () => {
             </label>
           </div>
           <div className="form-row-input">
-            <input type="email" id="email" name="email" value={email} onChange={(event) => setEmail(event.target.value)} className="form-input" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" />
+            <input type="email" id="email" name="email" autoComplete="email" value={email} onChange={(event) => setEmail(event.target.value)} className="form-input" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" />
           </div>
           <div className="form-row">
             <label htmlFor="message" className="form-label">
@@ -77,7 +77,7 @@ const GetInTouch = () => {
               </label>
             </div>
             <div className="form-row-input">
-              <input type="text" id="name" name="name" value={name} onChange={(event) => setName(event.target.value)} className="form-input" required />
+              <input type="text" id="name" name="name" autoComplete="given-name" value={name} onChange={(event) => setName(event.target.value)} className="form-input" required />
             </div>
             <div className="form-row">
               <label htmlFor="email" className="form-label">
@@ -85,7 +85,7 @@ const GetInTouch = () => {
               </label>
             </div>
             <div className="form-row-input">
-              <input type="email" id="email" name="email" value={email} onChange={(event) => setEmail(event.target.value)} className="form-input" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" />
+              <input type="email" id="email" name="email" autoComplete="email" value={email} onChange={(event) => setEmail(event.target.value)} className="form-input" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" />
             </div>
             <div className="form-row">
               <label htmlFor="message" className="form-label">
