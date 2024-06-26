@@ -49,7 +49,7 @@ const GetInTouch = () => {
             </label>
           </div>
           <div className="form-row-input">
-            <input type="email" id="email" name="email" autoComplete="email" value={email} onChange={(event) => setEmail(event.target.value)} className="form-input" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" />
+            <input type="email" id="email" name="email" autoComplete="email" value={email} onChange={(event) => setEmail(event.target.value)} className="form-input" required pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" />
           </div>
           <div className="form-row">
             <label htmlFor="message" className="form-label">
