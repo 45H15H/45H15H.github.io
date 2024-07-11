@@ -13,6 +13,8 @@ import selenium from "../images/services/Selenium_Logo.png";
 import streamlit from "../images/services/streamlit-mark-color.png";
 import powerbi from "../images/services/Microsoft-Power-BI-Logo.png";
 import jupyter from "../images/services/squarelogo-greytext-orangebody-greymoons.png";
+import opencv from "../images/services/OpenCV_logo.png";
+import markdown from "../images/services/markdown.png";
 
 const serviceList = [
   {
@@ -45,6 +47,11 @@ const serviceList = [
     description: "Proficient in pandas for data manipulation, analysis, and visualization",
     image: pandas,
   },
+  {
+    title: "OpenCV",
+    description: "Familiar with OpenCV for computer vision and image processing tasks",
+    image: opencv,
+  }
 ];
 
 const serviceList2 = [
@@ -78,6 +85,11 @@ const serviceList2 = [
     description: "Proficient in Jupyter Notebooks for EDA, exploration, and visualization",
     image: jupyter,
   },
+  {
+    title: "Markdown",
+    description: "Skilled in Markdown for creating formatted text and documentation",
+    image: markdown,
+  }
 ];
 
 const Services = () => {
