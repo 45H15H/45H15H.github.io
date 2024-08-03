@@ -985,13 +985,13 @@ img.socialIcon {
   }
 
   100% {
-    transform: translateX(-1650px);
+    transform: translateX(-1925px);
   }
 }
 
 @keyframes marquee-2 {
   0% {
-    transform: translateX(-1650px);
+    transform: translateX(-1925px);
   }
 
   100% {
@@ -1060,14 +1060,14 @@ img {
 
 @media screen and (max-width: 600px) {
   .service-container {
-    width: 1464px;
+    width: 1708px;
     gap: 2px;
     margin-top: 0;
     animation: marquee_small 6s linear infinite;
   }
 
   .service-container-2 {
-    width: 1464px;
+    width: 1708px;
     gap: 2px;
     margin-top: -4rem;
     animation: marquee_small-2 6s linear infinite;
@@ -1079,13 +1079,13 @@ img {
     }
 
     100% {
-      transform: translateX(-732px);
+      transform: translateX(-854px);
     }
   }
 
   @keyframes marquee_small-2 {
     0% {
-      transform: translateX(-732px);
+      transform: translateX(-854px);
     }
 
     100% {
